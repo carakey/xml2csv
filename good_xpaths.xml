@@ -1,0 +1,917 @@
+
+
+modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]
+
+
+modsCollection/mods/titleInfo[@type="alternative"][@displayLabel="Headline"]/title
+
+
+modsCollection/mods/titleInfo/title
+
+
+modsCollection/mods/name[@displayLabel="Person Placing Ad"]/namePart
+
+
+
+modsCollection/mods/name[@displayLabel="Person Placing Ad"]/role/roleTerm[@type="text"][@authority="marcrelator"]
+
+
+
+modsCollection/mods/name[@displayLabel="Person Placing Ad"]/role/roleTerm[@type="code"][@authority="marcrelator"]
+
+
+modsCollection/mods/originInfo/dateIssued[@keyDate="yes"]
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="local"][@displayLabel="Location of Slave Owner"]/geographic
+
+
+modsCollection/mods/subject[@authority="local"][@displayLabel="Location of Submitter"]/geographic
+
+
+modsCollection/mods/subject[@authority="local"][@displayLabel="Time Period"]/temporal
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Complexion/Racial Designation"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Owner"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Name (Age)"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Age Under 12"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Physical Description Provided"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Sex"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Personality Description Provided"]
+
+modsCollection/mods/typeOfResource
+
+
+modsCollection/mods/physicalDescription/form
+
+
+modsCollection/mods/physicalDescription/internetMediaType
+
+
+modsCollection/mods/language/languageTerm[@type="text"]
+
+
+modsCollection/mods/language/languageTerm[@type="text"]
+
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/part[@displayLabel="Publication"]/detail/number
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title
+
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/part[@displayLabel="Publication"]/detail/title
+
+modsCollection/mods/location
+
+modsCollection/mods/note[@type="citation/reference"][@displayLabel="Source Citation"]
+
+modsCollection/mods/note[@type="citation/reference"][@displayLabel="Continuous Ad"]
+
+modsCollection/mods/identifier[@type="lccn"][@displayLabel="LCCN"]
+
+modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]
+
+
+modsCollection/mods/recordInfo/recordChangeDate
+
+
+modsCollection/mods/recordInfo/recordCreationDate
+
+
+modsCollection/mods/recordInfo/recordOrigin
+
+
+
+modsCollection/mods/extension/CONTENTdmData/alias
+
+
+
+modsCollection/mods/extension/CONTENTdmData/pointer
+
+
+
+modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/p16313coll80/2218/json"][@timestamp="2017-02-13 13:33:33"]
+
+modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]
+
+
+modsCollection/mods/titleInfo[@type="alternative"][@displayLabel="Headline"]/title
+
+
+modsCollection/mods/titleInfo/title
+
+
+modsCollection/mods/name[@displayLabel="Person Placing Ad"]/namePart
+
+
+
+modsCollection/mods/name[@displayLabel="Person Placing Ad"]/role/roleTerm[@type="text"][@authority="marcrelator"]
+
+
+
+modsCollection/mods/name[@displayLabel="Person Placing Ad"]/role/roleTerm[@type="code"][@authority="marcrelator"]
+
+
+modsCollection/mods/originInfo/dateIssued[@keyDate="yes"]
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="local"][@displayLabel="Location of Slave Owner"]/geographic
+
+
+modsCollection/mods/subject[@authority="local"][@displayLabel="Location of Submitter"]/geographic
+
+
+modsCollection/mods/subject[@authority="local"][@displayLabel="Time Period"]/temporal
+
+modsCollection/mods/abstract[@displayLabel="Transcript"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Complexion/Racial Designation"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Owner"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Name (Age)"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Age Under 12"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Physical Description Provided"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Sex"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Personality Description Provided"]
+
+modsCollection/mods/typeOfResource
+
+
+modsCollection/mods/physicalDescription/form
+
+
+modsCollection/mods/physicalDescription/internetMediaType
+
+
+modsCollection/mods/language/languageTerm[@type="text"]
+
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/part[@displayLabel="Publication"]/detail/number
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title
+
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/part[@displayLabel="Publication"]/detail/title
+
+modsCollection/mods/location
+
+modsCollection/mods/note[@type="citation/reference"][@displayLabel="Source Citation"]
+
+modsCollection/mods/note[@type="citation/reference"][@displayLabel="Continuous Ad"]
+
+modsCollection/mods/identifier[@type="lccn"][@displayLabel="LCCN"]
+
+modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]
+
+
+modsCollection/mods/recordInfo/recordChangeDate
+
+
+modsCollection/mods/recordInfo/recordCreationDate
+
+
+modsCollection/mods/recordInfo/recordOrigin
+
+
+
+modsCollection/mods/extension/CONTENTdmData/alias
+
+
+
+modsCollection/mods/extension/CONTENTdmData/pointer
+
+
+
+modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/p16313coll80/2217/json"][@timestamp="2017-02-13 13:33:58"]
+
+modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]
+
+
+modsCollection/mods/titleInfo[@type="alternative"][@displayLabel="Headline"]/title
+
+
+modsCollection/mods/titleInfo/title
+
+
+modsCollection/mods/name[@displayLabel="Person Placing Ad"]/namePart
+
+
+
+modsCollection/mods/name[@displayLabel="Person Placing Ad"]/role/roleTerm[@type="text"][@authority="marcrelator"]
+
+
+
+modsCollection/mods/name[@displayLabel="Person Placing Ad"]/role/roleTerm[@type="code"][@authority="marcrelator"]
+
+
+modsCollection/mods/originInfo/dateIssued[@keyDate="yes"]
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="local"][@displayLabel="Location of Slave Owner"]/geographic
+
+
+modsCollection/mods/subject[@authority="local"][@displayLabel="Location of Submitter"]/geographic
+
+
+modsCollection/mods/subject[@authority="local"][@displayLabel="Time Period"]/temporal
+
+modsCollection/mods/abstract[@displayLabel="Transcript"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Complexion/Racial Designation"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Owner"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Name (Age)"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Age Under 12"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Physical Description Provided"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Sex"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Personality Description Provided"]
+
+modsCollection/mods/typeOfResource
+
+
+modsCollection/mods/physicalDescription/form
+
+
+modsCollection/mods/physicalDescription/internetMediaType
+
+
+modsCollection/mods/language/languageTerm[@type="text"]
+
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/part[@displayLabel="Publication"]/detail/number
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title
+
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/part[@displayLabel="Publication"]/detail/title
+
+modsCollection/mods/location
+
+modsCollection/mods/note[@type="citation/reference"][@displayLabel="Source Citation"]
+
+modsCollection/mods/note[@type="citation/reference"][@displayLabel="Continuous Ad"]
+
+modsCollection/mods/identifier[@type="lccn"][@displayLabel="LCCN"]
+
+modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]
+
+
+modsCollection/mods/recordInfo/recordChangeDate
+
+
+modsCollection/mods/recordInfo/recordCreationDate
+
+
+modsCollection/mods/recordInfo/recordOrigin
+
+
+
+modsCollection/mods/extension/CONTENTdmData/alias
+
+
+
+modsCollection/mods/extension/CONTENTdmData/pointer
+
+
+
+modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/p16313coll80/2216/json"][@timestamp="2017-02-13 13:33:58"]
+
+modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]
+
+
+modsCollection/mods/titleInfo[@type="alternative"][@displayLabel="Headline"]/title
+
+
+modsCollection/mods/titleInfo/title
+
+
+modsCollection/mods/name[@displayLabel="Person Placing Ad"]/namePart
+
+
+
+modsCollection/mods/name[@displayLabel="Person Placing Ad"]/role/roleTerm[@type="text"][@authority="marcrelator"]
+
+
+
+modsCollection/mods/name[@displayLabel="Person Placing Ad"]/role/roleTerm[@type="code"][@authority="marcrelator"]
+
+
+modsCollection/mods/originInfo/dateIssued[@keyDate="yes"]
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="local"][@displayLabel="Location of Slave Owner"]/geographic
+
+
+modsCollection/mods/subject[@authority="local"][@displayLabel="Location of Submitter"]/geographic
+
+
+modsCollection/mods/subject[@authority="local"][@displayLabel="Time Period"]/temporal
+
+
+modsCollection/mods/subject[@authority="local"][@displayLabel="Date Committed"]/temporal
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Owner"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Name (Age)"]
+
+modsCollection/mods/typeOfResource
+
+
+modsCollection/mods/physicalDescription/form
+
+
+modsCollection/mods/physicalDescription/internetMediaType
+
+
+modsCollection/mods/language/languageTerm[@type="text"]
+
+
+modsCollection/mods/language/languageTerm[@type="text"]
+
+modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]
+
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/part[@displayLabel="Publication"]/detail/number
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]
+
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/part[@displayLabel="Publication"]/detail/title
+
+modsCollection/mods/location
+
+modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]
+
+modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]
+
+modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]
+
+modsCollection/mods/note[@type="citation/reference"][@displayLabel="Source Citation"]
+
+modsCollection/mods/note[@type="citation/reference"][@displayLabel="Continuous Ad"]
+
+modsCollection/mods/identifier[@type="lccn"][@displayLabel="LCCN"]
+
+modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]
+
+
+modsCollection/mods/recordInfo/recordChangeDate
+
+
+modsCollection/mods/recordInfo/recordCreationDate
+
+
+modsCollection/mods/recordInfo/recordOrigin
+
+
+
+modsCollection/mods/extension/CONTENTdmData/alias
+
+
+
+modsCollection/mods/extension/CONTENTdmData/pointer
+
+
+
+modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/p16313coll80/457/json"][@timestamp="2017-02-13 13:33:53"]
+
+modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]
+
+
+modsCollection/mods/titleInfo/title
+
+modsCollection/mods/abstract[@displayLabel="Transcript"]
+
+modsCollection/mods/typeOfResource
+
+
+modsCollection/mods/physicalDescription/form
+
+
+modsCollection/mods/physicalDescription/internetMediaType
+
+
+modsCollection/mods/language/languageTerm[@type="text"]
+
+modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title
+
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/part[@displayLabel="Publication"]/detail/title
+
+modsCollection/mods/location
+
+modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]
+
+modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]
+
+modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]
+
+modsCollection/mods/note[@type="citation/reference"][@displayLabel="Continuous Ad"]
+
+modsCollection/mods/identifier[@type="lccn"][@displayLabel="LCCN"]
+
+modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]
+
+
+modsCollection/mods/recordInfo/recordChangeDate
+
+
+modsCollection/mods/recordInfo/recordCreationDate
+
+
+modsCollection/mods/recordInfo/recordOrigin
+
+
+
+modsCollection/mods/extension/CONTENTdmData/alias
+
+
+
+modsCollection/mods/extension/CONTENTdmData/pointer
+
+
+
+modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/p16313coll80/455/json"][@timestamp="2017-02-13 13:34:25"]
+
+modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]
+
+
+modsCollection/mods/titleInfo/title
+
+modsCollection/mods/abstract[@displayLabel="Transcript"]
+
+modsCollection/mods/typeOfResource
+
+
+modsCollection/mods/physicalDescription/form
+
+
+modsCollection/mods/physicalDescription/internetMediaType
+
+
+modsCollection/mods/language/languageTerm[@type="text"]
+
+modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title
+
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/part[@displayLabel="Publication"]/detail/title
+
+modsCollection/mods/location
+
+modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]
+
+modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]
+
+modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]
+
+modsCollection/mods/identifier[@type="lccn"][@displayLabel="LCCN"]
+
+modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]
+
+
+modsCollection/mods/recordInfo/recordChangeDate
+
+
+modsCollection/mods/recordInfo/recordCreationDate
+
+
+modsCollection/mods/recordInfo/recordOrigin
+
+
+
+modsCollection/mods/extension/CONTENTdmData/alias
+
+
+
+modsCollection/mods/extension/CONTENTdmData/pointer
+
+
+
+modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/p16313coll80/456/json"][@timestamp="2017-02-13 13:34:25"]
+
+modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]
+
+
+modsCollection/mods/titleInfo[@type="alternative"][@displayLabel="Headline"]/title
+
+
+modsCollection/mods/titleInfo/title
+
+modsCollection/mods/abstract[@displayLabel="Transcript"]
+
+modsCollection/mods/typeOfResource
+
+
+modsCollection/mods/physicalDescription/internetMediaType
+
+
+modsCollection/mods/language/languageTerm[@type="text"]
+
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/part[@displayLabel="Publication"]/detail/number
+
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/part[@displayLabel="Publication"]/detail/title
+
+modsCollection/mods/location
+
+modsCollection/mods/note[@type="citation/reference"][@displayLabel="Source Citation"]
+
+modsCollection/mods/identifier[@type="lccn"][@displayLabel="LCCN"]
+
+modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]
+
+
+modsCollection/mods/recordInfo/recordChangeDate
+
+
+modsCollection/mods/recordInfo/recordCreationDate
+
+
+modsCollection/mods/recordInfo/recordOrigin
+
+
+
+modsCollection/mods/extension/CONTENTdmData/alias
+
+
+
+modsCollection/mods/extension/CONTENTdmData/pointer
+
+
+
+modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/p16313coll80/996/json"][@timestamp="2017-02-13 13:34:26"]
+
+modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]
+
+
+modsCollection/mods/titleInfo/title
+
+
+modsCollection/mods/name[@displayLabel="Person Placing Ad"]/namePart
+
+
+
+modsCollection/mods/name[@displayLabel="Person Placing Ad"]/role/roleTerm[@type="text"][@authority="marcrelator"]
+
+
+
+modsCollection/mods/name[@displayLabel="Person Placing Ad"]/role/roleTerm[@type="code"][@authority="marcrelator"]
+
+
+modsCollection/mods/originInfo/dateIssued[@keyDate="yes"]
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="lcsh"]/topic
+
+
+modsCollection/mods/subject[@authority="local"][@displayLabel="Location of Slave Owner"]/geographic
+
+
+modsCollection/mods/subject[@authority="local"][@displayLabel="Location of Submitter"]/geographic
+
+
+modsCollection/mods/subject[@authority="local"][@displayLabel="Time Period"]/temporal
+
+
+modsCollection/mods/subject[@authority="local"][@displayLabel="Date of Departure"]/temporal
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Complexion/Racial Designation"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Owner"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Name (Age)"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Age Under 12"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Physical Description Provided"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Slave Sex"]
+
+modsCollection/mods/note[@type="content"][@displayLabel="Personality Description Provided"]
+
+modsCollection/mods/typeOfResource
+
+
+modsCollection/mods/physicalDescription/form
+
+
+modsCollection/mods/physicalDescription/internetMediaType
+
+
+modsCollection/mods/language/languageTerm[@type="text"]
+
+
+modsCollection/mods/language/languageTerm[@type="text"]
+
+modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]
+
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/part[@displayLabel="Publication"]/detail/title
+
+modsCollection/mods/location
+
+modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]
+
+modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]
+
+modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]
+
+modsCollection/mods/identifier[@type="lccn"][@displayLabel="LCCN"]
+
+modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]
+
+
+modsCollection/mods/recordInfo/recordChangeDate
+
+
+modsCollection/mods/recordInfo/recordCreationDate
+
+
+modsCollection/mods/recordInfo/recordOrigin
+
+
+
+modsCollection/mods/extension/CONTENTdmData/alias
+
+
+
+modsCollection/mods/extension/CONTENTdmData/pointer
+
+
+
+modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/p16313coll80/997/json"][@timestamp="2017-02-13 13:33:54"]
+
+modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]
+
+
+modsCollection/mods/titleInfo[@type="alternative"][@displayLabel="Headline"]/title
+
+
+modsCollection/mods/titleInfo/title
+
+modsCollection/mods/abstract[@displayLabel="Transcript"]
+
+modsCollection/mods/typeOfResource
+
+
+modsCollection/mods/physicalDescription/internetMediaType
+
+
+modsCollection/mods/language/languageTerm[@type="text"]
+
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/part[@displayLabel="Publication"]/detail/number
+
+
+
+
+modsCollection/mods/relatedItem[@type="host"]/part[@displayLabel="Publication"]/detail/title
+
+modsCollection/mods/location
+
+modsCollection/mods/note[@type="citation/reference"][@displayLabel="Source Citation"]
+
+modsCollection/mods/identifier[@type="lccn"][@displayLabel="LCCN"]
+
+modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]
+
+
+modsCollection/mods/recordInfo/recordChangeDate
+
+
+modsCollection/mods/recordInfo/recordCreationDate
+
+
+modsCollection/mods/recordInfo/recordOrigin
+
+
+
+modsCollection/mods/extension/CONTENTdmData/alias
+
+
+
+modsCollection/mods/extension/CONTENTdmData/pointer
+
+
+
+modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/p16313coll80/995/json"][@timestamp="2017-02-13 13:34:26"]
