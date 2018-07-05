@@ -4,18 +4,21 @@
     xpath-default-namespace="http://www.loc.gov/mods/v3" exclude-result-prefixes="xs" version="2.0"
     xmlns="http://www.loc.gov/mods/v3">
 
-    <xsl:output method="text"/>
+    <xsl:output method="xml" indent="yes"/>
 
     <xsl:template match="/">
-        <path>
-        <xsl:apply-templates select="//*[not(child::*)]"/>
-        </path>
+        <root>
+            <xsl:for-each select="//*[not(child::*)]">
+                <path>
+                    <xsl:apply-templates select="."/>
+                </path>
+            </xsl:for-each>
+        </root>
     </xsl:template>
 
     <xsl:template match="*">
         <xsl:choose>
             <xsl:when test="parent::*">
-                <xsl:text>&#xa;</xsl:text>
                 <xsl:apply-templates select="parent::*"/>
                 <xsl:text>/</xsl:text>
                 <xsl:call-template name="element"/>
@@ -32,7 +35,9 @@
     </xsl:template>
 
     <xsl:template match="@*">
-        <xsl:value-of select="(concat('[@', name(), '=&quot;', ., '&quot;]'))"/>
+        <xsl:if test="name()[not(.='timestamp')][not(.='source')]">
+        <xsl:value-of select="(concat('[@', name(), '=&apos;', ., '&apos;]'))"/>
+        </xsl:if>
     </xsl:template>
 
 </xsl:stylesheet>
