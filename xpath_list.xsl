@@ -36,7 +36,7 @@
 
     <xsl:template match="@*">
         <xsl:if test="name()[not(.='timestamp')][not(.='source')]">
-        <xsl:value-of select="(concat('[@', name(), '=&apos;', ., '&apos;]'))"/>
+        <xsl:value-of select="(concat('[@', name(), '=&quot;', ., '&quot;]'))"/>
         </xsl:if>
     </xsl:template>
 
