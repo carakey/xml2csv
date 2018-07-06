@@ -14,10 +14,17 @@
                         <xsl:value-of select="."/>
                     </path>
                     <header>
+                        <xsl:variable name="terminus" select="replace(.,'^.*/','')"/>
                         <xsl:choose>
+                            <xsl:when test="contains(.,'roleTerm')">
+                                <xsl:value-of select="'roleTerm'"/>
+                            </xsl:when>
                             <xsl:when test="contains(.,'displayLabel')">
                                 <xsl:value-of select="substring-before(substring-after(.,'displayLabel=&quot;'),'&quot;]')"/>
                             </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="replace($terminus,'\[.*','')"/>
+                            </xsl:otherwise>
                         </xsl:choose>
                     </header>
                 </field>

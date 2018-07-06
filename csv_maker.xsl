@@ -33,7 +33,19 @@
         <xsl:variable name="record" select="."/>
         <xsl:for-each select="$fieldList//field">
             <xsl:variable name="header" select="header"/>
-            <xsl:variable name="value" select="normalize-space($record/*[@displayLabel=$header])"/>
+            <xsl:variable name="value">
+                <xsl:choose>
+                    <xsl:when test="contains($header,'roleTerm')">
+                        <xsl:value-of select="$record/roleTerm"/>
+                    </xsl:when>
+                    <xsl:when test="not(contains(./path,'displayLabel'))">
+                        <xsl:value-of select="normalize-space($record/*[name()=$header])"/>
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="normalize-space($record/*[@displayLabel=$header]//text())"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:variable>
             <xsl:value-of select="$value"/>
             <xsl:choose>
                 <xsl:when test="position() != last()">

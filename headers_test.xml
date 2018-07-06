@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns:mods="http://www.loc.gov/mods/v3" xmlns="http://www.loc.gov/mods/v3">
+   <field>
+      <path>modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</path>
+      <header>PID</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/titleInfo[@type="alternative"][@displayLabel="Headline"]/title</path>
+      <header>Headline</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/titleInfo/title</path>
+      <header>title</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/name[@displayLabel="Person Placing Ad"]/namePart</path>
+      <header>Person Placing Ad</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/name[@displayLabel="Person Placing Ad"]/role/roleTerm[@authority="marcrelator"]</path>
+      <header>roleTerm</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/originInfo/dateIssued[@keyDate="yes"]</path>
+      <header>dateIssued</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/subject[@authority="lcsh"]/topic</path>
+      <header>topic</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/subject[@authority="local"][@displayLabel="Location of Slave Owner"]/geographic</path>
+      <header>Location of Slave Owner</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/subject[@authority="local"][@displayLabel="Location of Submitter"]/geographic</path>
+      <header>Location of Submitter</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/subject[@authority="local"][@displayLabel="Time Period"]/temporal</path>
+      <header>Time Period</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/note[@type="content"][@displayLabel="Slave Complexion/Racial Designation"]</path>
+      <header>Slave Complexion/Racial Designation</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/note[@type="content"][@displayLabel="Slave Owner"]</path>
+      <header>Slave Owner</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/note[@type="content"][@displayLabel="Slave Name (Age)"]</path>
+      <header>Slave Name (Age)</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/note[@type="content"][@displayLabel="Slave Age Under 12"]</path>
+      <header>Slave Age Under 12</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/note[@type="content"][@displayLabel="Physical Description Provided"]</path>
+      <header>Physical Description Provided</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/note[@type="content"][@displayLabel="Slave Sex"]</path>
+      <header>Slave Sex</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/note[@type="content"][@displayLabel="Personality Description Provided"]</path>
+      <header>Personality Description Provided</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/typeOfResource</path>
+      <header>typeOfResource</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/physicalDescription/form</path>
+      <header>form</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/physicalDescription/internetMediaType</path>
+      <header>internetMediaType</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/language/languageTerm[@type="text"]</path>
+      <header>languageTerm</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/relatedItem[@type="host"]/part[@displayLabel="Publication"]/detail/number</path>
+      <header>Publication</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</path>
+      <header>Digital Collection</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/relatedItem[@type="host"]/part[@displayLabel="Publication"]/detail/title</path>
+      <header>Publication</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/location</path>
+      <header>location</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/note[@type="citation/reference"][@displayLabel="Source Citation"]</path>
+      <header>Source Citation</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/note[@type="citation/reference"][@displayLabel="Continuous Ad"]</path>
+      <header>Continuous Ad</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/identifier[@type="lccn"][@displayLabel="LCCN"]</path>
+      <header>LCCN</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</path>
+      <header>Migrated From</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/recordInfo/recordChangeDate</path>
+      <header>recordChangeDate</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/recordInfo/recordCreationDate</path>
+      <header>recordCreationDate</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/recordInfo/recordOrigin</path>
+      <header>recordOrigin</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/extension/CONTENTdmData/alias</path>
+      <header>alias</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/extension/CONTENTdmData/pointer</path>
+      <header>pointer</header>
+   </field>
+
+   <field>
+      <path>modsCollection/mods/abstract[@displayLabel="Transcript"]</path>
+      <header>Transcript</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/subject[@authority="local"][@displayLabel="Date Committed"]/temporal</path>
+      <header>Date Committed</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</path>
+      <header>Source</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</path>
+      <header>Relation</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</path>
+      <header>Contact Information</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</path>
+      <header>Rights</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</path>
+      <header>Cite As</header>
+   </field>
+   <field>
+      <path>modsCollection/mods/subject[@authority="local"][@displayLabel="Date of Departure"]/temporal</path>
+      <header>Date of Departure</header>
+   </field>
+</root>
