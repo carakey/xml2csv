@@ -6,14 +6,21 @@
     
     <xsl:output method="text"/>
     
-    <xsl:param name="fieldList" select="document('headers_test.xml')"/>
+    <xsl:param name="headerFile" select="'headers_test.xml'"/>
+    <xsl:variable name="fieldList" select="document($headerFile)"/>
         
     <xsl:template match="/">
         <xsl:call-template name="headerRow"/>
         <xsl:apply-templates select="modsCollection/mods"/>
     </xsl:template>
     
-    <!-- note to self: not getting dmGetItemInfo (deliberately, for now, but need to address)-->
+    <!-- to do: 
+        * not getting dmGetItemInfo (deliberately, for now, but need to address)
+        * subject strings - delimit sibling topics with dashes and separate subjects with semicolons
+        * nameParts & roleTerms
+        * title.. should be fine?
+        * qualified dates may be problematic
+    -->
     
     <!-- Begin header row -->
     <xsl:template name="headerRow">
@@ -40,33 +47,26 @@
             
             <xsl:variable name="value">
                 <xsl:choose>
-                    <xsl:when test="$header='roleTerm'"/>
+                    
+                    <xsl:when test="$header='roleTerm'"/><!-- fix this -->
+                    
                     <xsl:when test="not(contains(./path,'displayLabel'))">
                         <xsl:choose>
                             <xsl:when test="$header='title'">
-                                <xsl:for-each select="$record/titleInfo[not(@displayLabel)]/title">
-                                    <xsl:value-of select="."/>
-                                    <xsl:if test="position()!=last()">
-                                        <xsl:text>; </xsl:text>
-                                    </xsl:if>
+                                <xsl:for-each select="$record/titleInfo[not(@*)]/title">
+                                    <xsl:call-template name="cell"/>
                                 </xsl:for-each>
                             </xsl:when>
                             <xsl:otherwise>
                                 <xsl:for-each select="$elementMatch">
-                                    <xsl:value-of select="normalize-space(.)"/>
-                                    <xsl:if test="position()!=last()">
-                                        <xsl:text>; </xsl:text>
-                                    </xsl:if>
+                                    <xsl:call-template name="cell"/>
                                 </xsl:for-each>
                             </xsl:otherwise>
                         </xsl:choose>
                     </xsl:when>
                     <xsl:when test="$labelMatch">
-                        <xsl:for-each select="normalize-space($labelMatch)">
-                        <xsl:value-of select="."/>
-                            <xsl:if test="position()!=last()">
-                                <xsl:text>; </xsl:text>
-                            </xsl:if>
+                        <xsl:for-each select="$labelMatch">
+                            <xsl:call-template name="cell"/>
                         </xsl:for-each>
                     </xsl:when>
                 </xsl:choose>
@@ -91,6 +91,13 @@
             </xsl:choose>
             
         </xsl:for-each>
+    </xsl:template>
+
+    <xsl:template name="cell">
+        <xsl:value-of select="normalize-space(.)"/>
+        <xsl:if test="position()!=last()">
+            <xsl:text>; </xsl:text>
+        </xsl:if>
     </xsl:template>
 
 </xsl:stylesheet>
