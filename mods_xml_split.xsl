@@ -7,13 +7,13 @@
 
     <!--   
     This stylesheet splits MODS XML files into separate MODS files 
-    and names them by targeting the identifier element in the record being exported.
+    and names them using the value of the first identifier element in the record being exported.
     -->
 
     <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes"/>
     
     <xsl:template match="mods:modsCollection/mods:mods">
-        <xsl:result-document method="xml" href="{mods:identifier}.xml">
+        <xsl:result-document method="xml" href="{mods:identifier[1]}.xml">
             <mods 
                 xmlns="http://www.loc.gov/mods/v3"
                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
