@@ -11,7 +11,8 @@
 
     <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes"/>
 
-    <!-- USER: update the value with the path to the directory where the MODS XML files are located -->
+    <!-- USER: update the value with the path to the directory where the MODS XML files are located;
+            Note that the trailing slash must be present. -->
     <xsl:param name="directoryName">
         <xsl:text>merge_test/</xsl:text>
     </xsl:param>
