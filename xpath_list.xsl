@@ -16,7 +16,7 @@
 
     <xsl:output method="xml" indent="yes"/>
 
-    <!--  Creates the root xpathList element; Creates an xpath element for each terminal "leaf" element -->
+    <!--  Creates the root xpathList element; creates an xpath element for each terminal "leaf" element -->
     <xsl:template match="/">
         <xpathList>
             <xsl:for-each select="//*[not(child::*)]">
@@ -28,7 +28,7 @@
         </xpathList>
     </xsl:template>
 
-    <!-- Builds xpath string by recursively applying following templates to parent elements; Adds '/' delimiters. -->
+    <!-- Builds xpath string by recursively applying following templates to parent elements; adds '/' delimiters. -->
     <xsl:template match="*">
         <xsl:choose>
             <xsl:when test="parent::*">
@@ -42,13 +42,13 @@
         </xsl:choose>
     </xsl:template>
 
-    <!-- Adds the current element name to the xpath string; Checks for attributes on the current element. -->
+    <!-- Adds the current element name to the xpath string; checks for attributes on the current element. -->
     <xsl:template name="element">
         <xsl:value-of select="name()"/>
         <xsl:apply-templates select="@*"/>
     </xsl:template>
 
-    <!-- Adds the current attribute name with attribute syntax to the xpath string; Omits @schemaLocation for readability and flexibility. -->
+    <!-- Adds the current attribute name with attribute syntax to the xpath string; omits @schemaLocation. -->
     <xsl:template match="@*">
         <xsl:if test="not(contains(name(), 'schemaLocation'))">
             <xsl:value-of select="(concat('[@', name(), '=&quot;', ., '&quot;]'))"/>
