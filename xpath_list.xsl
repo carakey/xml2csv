@@ -1,21 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mods="http://www.loc.gov/mods/v3"
-    xpath-default-namespace="http://www.loc.gov/mods/v3" exclude-result-prefixes="xs" version="2.0"
-    xmlns="http://www.loc.gov/mods/v3">
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" exclude-result-prefixes="xs xsi"
+    version="2.0">
+
+    <!--    
+        This stylesheet reads a source XML file and outputs an arbitrary XML file 
+        listing each XPath in the source as a string.
+        In the resulting document, the distinct-values() function may be used to
+        identify unique XPaths.
+        
+        Note that these strings cannot be substituted for expressions in follow-on XSL
+        1.0 or 2.0 stylesheets.
+    -->
 
     <xsl:output method="xml" indent="yes"/>
 
+    <!--  Creates the root xpathList element; Creates an xpath element for each terminal "leaf" element -->
     <xsl:template match="/">
-        <root>
+        <xpathList>
             <xsl:for-each select="//*[not(child::*)]">
-                <path>
+                <xpath>
+                    <xsl:text>/</xsl:text>
                     <xsl:apply-templates select="."/>
-                </path>
+                </xpath>
             </xsl:for-each>
-        </root>
+        </xpathList>
     </xsl:template>
 
+    <!-- Builds xpath string by recursively applying following templates to parent elements; Adds '/' delimiters. -->
     <xsl:template match="*">
         <xsl:choose>
             <xsl:when test="parent::*">
@@ -29,14 +42,16 @@
         </xsl:choose>
     </xsl:template>
 
+    <!-- Adds the current element name to the xpath string; Checks for attributes on the current element. -->
     <xsl:template name="element">
         <xsl:value-of select="name()"/>
         <xsl:apply-templates select="@*"/>
     </xsl:template>
 
+    <!-- Adds the current attribute name with attribute syntax to the xpath string; Omits @schemaLocation for readability and flexibility. -->
     <xsl:template match="@*">
-        <xsl:if test="name()[not(.='timestamp')][not(.='source')]">
-        <xsl:value-of select="(concat('[@', name(), '=&quot;', ., '&quot;]'))"/>
+        <xsl:if test="not(contains(name(), 'schemaLocation'))">
+            <xsl:value-of select="(concat('[@', name(), '=&quot;', ., '&quot;]'))"/>
         </xsl:if>
     </xsl:template>
 
