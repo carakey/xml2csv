@@ -16,7 +16,7 @@
         <xsl:text>merge_test/</xsl:text>
     </xsl:param>
 
-    <!-- Create the root modsCollection element and call XML documents in the named directory -->
+    <!-- Creates the root modsCollection element and calls XML documents in the named directory -->
     <xsl:template match="/">
         <modsCollection>
             <xsl:apply-templates select="collection($directoryName)//mods"/>
@@ -31,15 +31,17 @@
     </xsl:template>
 
     <!-- Specifically for MODS extracted with Islandora Datastream CRUD;
-        Extract and format the item PID using the filename of each MODS XML file;
-        Add the PID as an identifier as the first element of the outputted MODS record.
+        Extracts and formats the item PID using the filename of each MODS XML file;
+        Adds the PID as an identifier as the first element of the outputted MODS record.
          -->
     <xsl:template match="mods/*[1]">
-        <identifier type="local" displayLabel="PID">
-            <xsl:value-of
-                select="replace(replace(substring-after(base-uri(.), $directoryName), '_MODS.xml', ''), '_', ':')"
-            />
-        </identifier>
+        <xsl:if test="contains(base-uri(.), '_MODS.xml')">
+            <identifier type="local" displayLabel="PID">
+                <xsl:value-of
+                    select="replace(replace(substring-after(base-uri(.), $directoryName), '_MODS.xml', ''), '_', ':')"
+                />
+            </identifier>
+        </xsl:if>
         <xsl:copy-of select="."/>
     </xsl:template>
 
