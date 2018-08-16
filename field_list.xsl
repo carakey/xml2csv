@@ -5,12 +5,14 @@
     <xsl:output method="xml" indent="yes"/>
     
     <!-- To Do:
-        * insert special handling of snowflake fields in this file (or a different one...?), including: 
-    <xsl:if test="name()[not(. = 'timestamp')][not(. = 'source')]">
-    
+        * insert special handling of snowflake fields in this file
+            * name: namePart + roleTerm
+            * 
+        * when the displayLabel element has multiple children...?
         * update follow-on stylesheets for changed element names here 
         * add commentary
     -->
+    
     
     <xsl:variable name="uniquePaths" select="distinct-values(xpathList/xpath[not(contains(.,'@timestamp'))][not(contains(.,'@source'))])"/>
     
@@ -20,7 +22,6 @@
                 <xsl:value-of select="count($uniquePaths)"/>
             </fieldCount>
             <xsl:for-each select="$uniquePaths">
-                <xsl:sort select="." data-type="text" order="ascending"/>
                 <field>
                     <xpath>
                         <xsl:value-of select="."/>
