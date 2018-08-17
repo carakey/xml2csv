@@ -77,7 +77,7 @@ The field names from the field list will be the column headers. There will be on
 
 ## Known Issues & Intended Improvements
 
-* CSV Maker is not working. 
+* CSV Maker is not working.
 * In field_list.xsl:
     * add @type as a modifier for naming fields
     * insert special handling of snowflake fields in this file
@@ -86,3 +86,14 @@ The field names from the field list will be the column headers. There will be on
 * Get the distinct values at the XPath List step rather than the Field List step.
 * Mapping back from CSV to MODS with MIK is completely untested; the double quotes in attribute values need to be replaced with apostrophes.
 * Additional namespace declarations will be needed in header of csv_maker to handle non-MODS
+
+
+## Processing the sample data with saxon
+
+First, be sure to have downloaded saxon to your local machine. The example commands here (copied from above) assume that it is available from the root of the directory created when you clone this repository. If you downloaded it here, great! Otherwise, it may be useful to make a symbolic from the download location to this directory, as shown in the first step:
+
+* `ln -s /opt/saxon/saxon9he.jar saxon9he.jar`
+* `java -jar saxon9he.jar -s:mods_xml_merge.xsl -xsl:mods_xml_merge.xsl -o:collectionName_mods.xml directoryName=input_directory/`
+* `java -jar saxon9he.jar -s:collectionName_mods.xml -xsl:xpath_list.xsl -o:collectionName_xpaths.xml`
+* `java -jar saxon9he.jar -s:collectionName_xpaths.xml -xsl:field_list.xsl -o:collectionName_fields.xml`
+* `java -jar saxon9he.jar -s:collectionName_mods.xml -xsl:csv_maker.xsl -o:collectionName.csv headerFile=collectionName_mods.xml`
