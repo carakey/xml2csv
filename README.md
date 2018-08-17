@@ -97,3 +97,5 @@ First, be sure to have downloaded saxon to your local machine. The example comma
 * `java -jar saxon9he.jar -s:collectionName_mods.xml -xsl:xpath_list.xsl -o:collectionName_xpaths.xml`
 * `java -jar saxon9he.jar -s:collectionName_xpaths.xml -xsl:field_list.xsl -o:collectionName_fields.xml`
 * `java -jar saxon9he.jar -s:collectionName_mods.xml -xsl:csv_maker.xsl -o:collectionName.csv headerFile=collectionName_mods.xml`
+
+Saxon HE is on sourceforge, somewhere like this: https://sourceforge.net/projects/saxon/files/Saxon-HE/9.8/
