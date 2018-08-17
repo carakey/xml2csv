@@ -2,6 +2,14 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema" exclude-result-prefixes="xs" version="2.0">
     
+    <!-- 
+        This stylesheet is meant for use on the output of xpath_list.xsl.
+        It identifies the unique XPaths in the collection - that is, where both the elements and attributes are distinct. 
+        For each unique path, the stylesheet: 
+            1) creates a field name to use as the column header in the CSV; and 
+            2) writes the mapping line to convert the updated data back to MODS XML.
+    -->
+    
     <xsl:output method="xml" indent="yes"/>
     
     <!-- To Do:
@@ -13,14 +21,18 @@
         * add commentary
     -->
     
-    
+    <!-- Creates a list of unique XPaths and store it as a variable; omit certain migration-related data from MODS extension fields -->
     <xsl:variable name="uniquePaths" select="distinct-values(xpathList/xpath[not(contains(.,'@timestamp'))][not(contains(.,'@source'))])"/>
     
+    <!-- Builds document structure -->
     <xsl:template match="/">
         <fieldList>
+            <!-- Gets a count of total fields -->
             <fieldCount>
                 <xsl:value-of select="count($uniquePaths)"/>
             </fieldCount>
+            
+            <!-- For each unique XPath, copies the XPath adds a fieldName element and a mapping element -->
             <xsl:for-each select="$uniquePaths">
                 <field>
                     <xpath>
