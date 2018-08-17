@@ -13,15 +13,13 @@
     <xsl:output method="xml" indent="yes"/>
     
     <!-- To Do:
+        * add @type as a modifier for naming fields 
         * insert special handling of snowflake fields in this file
-            * name: namePart + roleTerm
-            * 
-        * when the displayLabel element has multiple children...?
-        * update follow-on stylesheets for changed element names here 
-        * add commentary
+            * Example: name/ namePart + roleTerm
+        * handle the case where a displayLabel element has multiple children
     -->
     
-    <!-- Creates a list of unique XPaths and store it as a variable; omit certain migration-related data from MODS extension fields -->
+    <!-- Creates a list of unique XPaths and stores it as a variable; omits certain migration-related data from MODS extension fields -->
     <xsl:variable name="uniquePaths" select="distinct-values(xpathList/xpath[not(contains(.,'@timestamp'))][not(contains(.,'@source'))])"/>
     
     <!-- Builds document structure -->
@@ -52,9 +50,9 @@
     <xsl:template name="fieldName">
         <xsl:variable name="terminus" select="replace(., '^.*/', '')"/>
         <xsl:choose>
-            <xsl:when test="contains(., 'roleTerm')">
+<!--            <xsl:when test="contains(., 'roleTerm')">
                 <xsl:value-of select="'roleTerm'"/>
-            </xsl:when>
+            </xsl:when>-->
             <xsl:when test="contains(., 'displayLabel')">
                 <xsl:value-of
                     select="substring-before(substring-after(., 'displayLabel=&quot;'), '&quot;]')"
