@@ -14,7 +14,7 @@
     <!-- USER: update the value with the path to the directory where the MODS XML files are located;
             Note that the trailing slash must be present. -->
     <xsl:param name="directoryName">
-        <xsl:text>merge_test/</xsl:text>
+        <xsl:text>input_directory/</xsl:text>
     </xsl:param>
 
     <!-- Creates the root modsCollection element and calls XML documents in the named directory -->
