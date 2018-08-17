@@ -13,9 +13,8 @@
     <xsl:output method="xml" indent="yes"/>
     
     <!-- To Do:
+        * add comments to fieldName and mapping templates
         * add @type as a modifier for naming fields 
-        * insert special handling of snowflake fields in this file
-            * Example: name/ namePart + roleTerm
         * handle the case where a displayLabel element has multiple children
     -->
     

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3">
+   <titleInfo usage="primary" displayLabel="Common name (on plate)">
+      <title>Tennessee Warbler</title>
+  </titleInfo>
+   <titleInfo displayLabel="Part">
+      <partNumber>Part 31</partNumber>
+  </titleInfo>
+   <titleInfo displayLabel="Plate">
+      <partNumber>Plate 154</partNumber>
+  </titleInfo>
+   <titleInfo displayLabel="Scientific name (on plate)">
+      <subTitle>Sylvia peregrina</subTitle>
+  </titleInfo>
+   <name displayLabel="Artist">
+      <namePart>Audubon, John James (1785-1851)</namePart>
+      <role>
+         <roleTerm type="code" authority="marcrelator">art</roleTerm>
+         <roleTerm type="text" authority="marcrelator">Artist</roleTerm>
+      </role>
+  </name>
+   <name displayLabel="Donated by">
+      <namePart>Dr. and Mrs. Joseph W. Brouillette</namePart>
+      <role>
+         <roleTerm type="code" authority="marcrelator">dnr</roleTerm>
+         <roleTerm type="text" authority="marcrelator">Donor</roleTerm>
+      </role>
+  </name>
+   <name displayLabel="Engraver/lithographer">
+      <namePart>R. Havell</namePart>
+      <role>
+         <roleTerm type="code" authority="marcrelator">eng</roleTerm>
+         <roleTerm type="text" authority="marcrelator">Engraver</roleTerm>
+      </role>
+  </name>
+   <originInfo>
+      <publisher>R. Havell</publisher>
+      <dateCreated>1821</dateCreated>
+  </originInfo>
+   <subject authority="lcsh">
+      <topic>Birds</topic>
+      <topic>North America</topic>
+   </subject>
+   <subject authority="lcsh">
+      <topic>Birds</topic>
+      <topic>Pictorial works</topic>
+   </subject>
+   <subject displayLabel="Location of bird drawn">
+      <geographic>Oakley Plantation</geographic>
+   </subject>
+   <abstract>Depicts one bird in a holly.</abstract>
+   <note type="content" displayLabel="Current scientific name">Vermivora peregrina</note>
+   <typeOfResource>still image</typeOfResource>
+   <physicalDescription>
+      <note type="medium">Water-colored engraving with aquatint</note>
+      <form>Engravings</form>
+      <internetMediaType>jp2</internetMediaType>
+      <extent>30in x 40in</extent>
+   </physicalDescription>
+   <language>
+      <languageTerm type="code">en</languageTerm>
+  </language>
+   <note type="ownership" displayLabel="Source">Louisiana State University Libraries, Special Collections ( http://www.lib.lsu.edu/special )</note>
+   <relatedItem type="host">
+      <titleInfo displayLabel="Digital Collection">
+         <title>John James Audubon in Louisiana</title>
+      </titleInfo>
+      <location>
+         <url displayLabel="Relation">http://lsu.louisianadigitallibrary.org/lsu-jja%3Acollection</url>
+      </location>
+      <titleInfo type="alternative" displayLabel="Repository Collection">
+         <title>E.A. McIlhenny Natural History Collection</title>
+      </titleInfo>
+  </relatedItem>
+   <location>
+      <physicalLocation authority="oclcorg" displayLabel="OCLC Member Symbol">LUU</physicalLocation>
+      <physicalLocation displayLabel="Physical Location">Louisiana State University: LSU Libraries</physicalLocation>
+      <url displayLabel="Institution Web Site">http://lib.lsu.edu</url>
+      <holdingSimple>
+         <copyInformation>
+            <subLocation>Hill Memorial Library: Special Collections</subLocation>
+         </copyInformation>
+      </holdingSimple>
+   </location>
+   <accessCondition type="restriction on access" displayLabel="Rights">Physical rights are retained by the LSU Libraries. Copyright of the original material is retained in accordance with U.S. copyright laws. Permission to reproduce this image must be requested through the Special Collections Division, Louisiana State University Libraries.</accessCondition>
+   <accessCondition type="use and reproduction" displayLabel="Contact Information">E-mail lsudiglib@lsu.edu with questions or comments. See instructions for ordering reprints of this item here: http://www.lib.lsu.edu/special/services/duplication.html Mention the "Item number" or "Item URL" in your request. </accessCondition>
+   <note type="preferred citation" displayLabel="Cite As">John James Audubon in Louisiana, Louisiana Digital Library, Baton Rouge, La.</note>
+   <identifier type="local" displayLabel="Item Number">aud00019</identifier>
+   <identifier type="local" displayLabel="Accession Number">20112</identifier>
+   <identifier displayLabel="Migrated From" invalid="yes" type="uri">http://cdm16313.contentdm.oclc.org/cdm/singleitem/collection/LSU_JJA/id/4</identifier>
+   <recordInfo>
+      <recordCreationDate>2007-04-27</recordCreationDate>
+      <recordChangeDate>2016-11-29</recordChangeDate>
+      <recordOrigin>Transformed into MODS from extended Dublin Core by the LDL Development Team at Louisiana State University.</recordOrigin>
+  </recordInfo>
+   <extension>
+      <cataloger>Debbie Cannon</cataloger>
+      <hardwareSoftware>Photographed with a large format 4in x 5in view camera outfitted with a Better Light Precision Digital Imaging back</hardwareSoftware>
+      <CONTENTdmData>
+         <alias>LSU_JJA</alias>
+         <pointer>4</pointer>
+         <dmGetItemInfo mimetype="application/json" source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/4/json" timestamp="2016-11-29 16:01:12">{"title":"Tennessee Warbler","notes":{},"currea":{},"subjec":"Sylvia peregrina","descri":"Vermivora peregrina","common":{},"scient":{},"curren":{},"creato":"Audubon, John James (1785-1851)","date":"1821","public":{},"plate":"154","part":"31","publis":"R. Havell","engrav":"R. Havell","contri":"Dr. and Mrs. Joseph W. Brouillette","type":"30in x 40in; Depicts one bird in a holly.","format":"Water-colored engraving with aquatint","subjea":"Birds--North America; Birds--Pictorial works","author":{},"langua":"en","locati":"Oakley Plantation","biblio":{},"digita":"John James Audubon in Louisiana","reposi":"Louisiana State University Libraries, Special Collections ( http:\/\/www.lib.lsu.edu\/special )","reposa":"E.A. McIlhenny Natural History Collection","more":"http:\/\/www.lib.lsu.edu\/special\/exhibits\/audubon","digitb":"Photographed with a large format 4in x 5in view camera outfitted with a Better Light Precision Digital Imaging back","restri":"Physical rights are retained by the LSU Libraries. Copyright of the original material is retained in accordance with U.S. copyright laws. Permission to reproduce this image must be requested through the Special Collections Division, Louisiana State University Libraries.","cite":"John James Audubon in Louisiana, LOUISiana Digital Library, Baton Rouge, La.","to":"E-mail lsudiglib@lsu.edu with questions or comments. See instructions for ordering reprints of this item here: http:\/\/www.lib.lsu.edu\/special\/services\/duplication.html Mention the \"Item number\" or \"Item URL\" in your request. ","itea":"aud00019","access":"20112","item":"See \"reference url\" on the navigation bars.","collec":"Homepage: http:\/\/www.lib.lsu.edu\/special\/exhibits\/audubon;   List of images: http:\/\/www.louisianadigitallibrary.org\/cdm4\/browse.php?CISOROOT=\/LSU_JJA","catalo":"Debbie Cannon","catala":"070501","typea":"Engravings","genera":"Image","fullrs":{},"find":"5.jp2","dmaccess":{},"dmimage":{},"dmcreated":"2007-04-27","dmmodified":"2008-06-17","dmoclcno":{},"dmrecord":"4","restrictionCode":"1","cdmfilesize":"42225595","cdmfilesizeformatted":"40.27 MB","cdmprintpdf":"0","cdmhasocr":"0","cdmisnewspaper":"0"}</dmGetItemInfo>
+      </CONTENTdmData>
+  </extension>
+</mods>

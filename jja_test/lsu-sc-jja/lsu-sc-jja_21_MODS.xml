@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><mods xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.loc.gov/mods/v3">
+   <titleInfo usage="primary" displayLabel="Common name (on plate)">
+      <title>Pied-billed Dobchick</title>
+  </titleInfo>
+   <titleInfo displayLabel="Part">
+      <partNumber>Part 97</partNumber>
+  </titleInfo>
+   <titleInfo displayLabel="Plate">
+      <partNumber>Plate 483 (El. Fol. 248)</partNumber>
+  </titleInfo>
+   <name displayLabel="Artist">
+      <namePart>Audubon, John James (1785-1851)</namePart>
+      <role>
+         <roleTerm type="code" authority="marcrelator">art</roleTerm>
+         <roleTerm type="text" authority="marcrelator">Artist</roleTerm>
+      </role>
+  </name>
+   <name displayLabel="Engraver/lithographer">
+      <role>
+         <roleTerm type="code" authority="marcrelator">ltg</roleTerm>
+         <roleTerm type="text" authority="marcrelator">Lithographer</roleTerm>
+      </role>
+      <namePart>J.T. Bowen</namePart>
+   </name>
+   <originInfo>
+      <publisher>J.B. Chevalier</publisher>
+      <dateCreated>1821</dateCreated>
+  </originInfo>
+   <subject authority="lcsh">
+      <topic>Birds</topic>
+      <topic>North America</topic>
+   </subject>
+   <subject authority="lcsh">
+      <topic>Birds</topic>
+      <topic>Pictorial works</topic>
+   </subject>
+   <subject displayLabel="Location of bird drawn">
+      <geographic>Louisiana, Oakley Plantation</geographic>
+   </subject>
+   <abstract>Depicts an adult in winter plumage left</abstract>
+   <note type="content" displayLabel="Current scientific name">Podilymbus podiceps</note>
+   <typeOfResource>still image</typeOfResource>
+   <physicalDescription>
+      <note type="medium">Water-colored lithograph</note>
+      <form>Lithographs</form>
+      <internetMediaType>jp2</internetMediaType>
+      <extent>11in x 7in</extent>
+   </physicalDescription>
+   <language>
+      <languageTerm type="code">en</languageTerm>
+  </language>
+   <note type="ownership" displayLabel="Source">Louisiana State University Libraries, Special Collections ( http://www.lib.lsu.edu/special )</note>
+   <relatedItem type="host">
+      <titleInfo displayLabel="Digital Collection">
+         <title>John James Audubon in Louisiana</title>
+      </titleInfo>
+      <location>
+         <url displayLabel="Relation">http://lsu.louisianadigitallibrary.org/lsu-jja%3Acollection</url>
+      </location>
+      <titleInfo type="alternative" displayLabel="Repository Collection">
+         <title>E.A. McIlhenny Natural History Collection</title>
+      </titleInfo>
+  </relatedItem>
+   <location>
+      <physicalLocation authority="oclcorg" displayLabel="OCLC Member Symbol">LUU</physicalLocation>
+      <physicalLocation displayLabel="Physical Location">Louisiana State University: LSU Libraries</physicalLocation>
+      <url displayLabel="Institution Web Site">http://lib.lsu.edu</url>
+      <holdingSimple>
+         <copyInformation>
+            <subLocation>Hill Memorial Library: Special Collections</subLocation>
+         </copyInformation>
+      </holdingSimple>
+   </location>
+   <accessCondition type="restriction on access" displayLabel="Rights">Physical rights are retained by the LSU Libraries.  Copyright of the original material is retained in accordance with U.S. copyright laws.  Permission to reproduce this image must be requested through the Special Collections Division, Louisiana State University Libraries.</accessCondition>
+   <accessCondition type="use and reproduction" displayLabel="Contact Information">E-mail lsudiglib@lsu.edu with questions or comments. See instructions for ordering reprints of this item here: http://www.lib.lsu.edu/special/services/duplication.html Mention the "Item number" or "Item URL" in your request. </accessCondition>
+   <note type="preferred citation" displayLabel="Cite As">John James Audubon in Louisiana, Louisiana Digital Library, Baton Rouge, La.</note>
+   <identifier type="local" displayLabel="Item Number">aud00063</identifier>
+   <identifier displayLabel="Migrated From" invalid="yes" type="uri">http://cdm16313.contentdm.oclc.org/cdm/singleitem/collection/LSU_JJA/id/22</identifier>
+   <recordInfo>
+      <recordCreationDate>2007-05-04</recordCreationDate>
+      <recordChangeDate>2016-11-29</recordChangeDate>
+      <recordOrigin>Transformed into MODS from extended Dublin Core by the LDL Development Team at Louisiana State University.</recordOrigin>
+  </recordInfo>
+   <extension>
+      <cataloger>Aimee Everrett</cataloger>
+      <hardwareSoftware>Scanned with a DigiBook 10000 RGB Color Scanner</hardwareSoftware>
+      <CONTENTdmData>
+         <alias>LSU_JJA</alias>
+         <pointer>22</pointer>
+         <dmGetItemInfo mimetype="application/json" source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/22/json" timestamp="2016-11-29 16:01:11">{"title":"Pied-billed Dobchick","notes":{},"currea":{},"subjec":{},"descri":"Podilymbus podiceps","common":{},"scient":{},"curren":{},"creato":"Audubon, John James (1785-1851)","date":"1821","public":{},"plate":"483 (El. Fol. 248)","part":"97","publis":"J.B. Chevalier","engrav":"J.T. Bowen","contri":{},"type":"11in x 7in; Depicts an adult in winter plumage left, and an adult in breeding plumage.","format":"Water-colored lithograph","subjea":"Birds--North America; Birds--Pictorial works","author":{},"langua":"en","locati":"Louisiana, Oakley Plantation","biblio":{},"digita":"John James Audubon in Louisiana","reposi":"Louisiana State University Libraries, Special Collections ( http:\/\/www.lib.lsu.edu\/special )","reposa":"E.A. McIlhenny Natural History Collection","more":"http:\/\/www.lib.lsu.edu\/special\/exhibits\/audubon","digitb":"Scanned with a DigiBook 10000 RGB Color Scanner","restri":"Physical rights are retained by the LSU Libraries.  Copyright of the original material is retained in accordance with U.S. copyright laws.  Permission to reproduce this image must be requested through the Special Collections Division, Louisiana State University Libraries.","cite":"John James Audubon in Louisiana, LOUISiana Digital Library, Baton Rouge, La.","to":"E-mail lsudiglib@lsu.edu with questions or comments. See instructions for ordering reprints of this item here: http:\/\/www.lib.lsu.edu\/special\/services\/duplication.html Mention the \"Item number\" or \"Item URL\" in your request. ","itea":"aud00063","access":{},"item":"See \"reference url\" on the navigation bars","collec":"Homepage: http:\/\/www.lib.lsu.edu\/special\/exhibits\/audubon;   List of images: http:\/\/www.louisianadigitallibrary.org\/cdm4\/browse.php?CISOROOT=\/LSU_JJA","catalo":"Aimee Everrett","catala":"070504","typea":"Lithographs","genera":"Image","fullrs":{},"find":"23.jp2","dmaccess":{},"dmimage":{},"dmcreated":"2007-05-04","dmmodified":"2008-06-17","dmoclcno":{},"dmrecord":"22","restrictionCode":"1","cdmfilesize":"6073664","cdmfilesizeformatted":"5.79 MB","cdmprintpdf":"0","cdmhasocr":"0","cdmisnewspaper":"0"}</dmGetItemInfo>
+      </CONTENTdmData>
+  </extension>
+</mods>

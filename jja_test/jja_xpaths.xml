@@ -1,0 +1,1688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xpathList>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Common name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/12/json"][@timestamp="2016-11-29 16:01:11"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name (on plate)"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current common name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Accession Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/0/json"][@timestamp="2016-11-29 16:01:11"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/14/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current common name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/25/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current common name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/21/json"][@timestamp="2016-11-29 16:01:11"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/16/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Common name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name (on plate)"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current common name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Accession Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/30/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/15/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current common name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/35/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/9/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/nonSort</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Common name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name (on plate)"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current common name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Accession Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/31/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/22/json"][@timestamp="2016-11-29 16:01:11"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Common name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/18/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Common name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name (on plate)"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific plant name"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Accession Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/28/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Common name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name (on plate)"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current common name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Accession Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/8/json"][@timestamp="2016-11-29 16:01:11"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current common name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/23/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current common name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/11/json"][@timestamp="2016-11-29 16:01:11"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name (on plate)"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Accession Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/1/json"][@timestamp="2016-11-29 16:01:11"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Common name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name (on plate)"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current common name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Accession Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/32/json"][@timestamp="2016-11-29 16:01:11"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Common name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name (on plate)"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific plant name"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current common name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Accession Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/27/json"][@timestamp="2016-11-29 16:01:11"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/10/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Common name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name (on plate)"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current common name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Accession Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/36/json"][@timestamp="2016-11-29 16:01:11"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name (on plate)"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateIssued[@keyDate="yes"]</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current common name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Accession Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/39/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name (on plate)"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Accession Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/4/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/19/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Common name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific plant name"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/13/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current common name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/24/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Common name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/17/json"][@timestamp="2016-11-29 16:01:11"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name (on plate)"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Accession Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/6/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Common name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name (on plate)"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current common name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Accession Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/29/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Common name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name (on plate)"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Accession Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/7/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Common name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name (on plate)"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific plant name"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Accession Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/26/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Common name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name (on plate)"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Accession Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/3/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Common name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name (on plate)"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name of plant"]/subTitle</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+   <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+   <xpath>/modsCollection/mods/originInfo/dateCreated</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@authority="lcsh"]/topic</xpath>
+   <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
+   <xpath>/modsCollection/mods/abstract</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current scientific name"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Current common name"]</xpath>
+   <xpath>/modsCollection/mods/typeOfResource</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/form</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+   <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+   <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+   <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+   <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+   <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+   <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+   <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+   <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Item Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Accession Number"]</xpath>
+   <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+   <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+   <xpath>/modsCollection/mods/extension/cataloger</xpath>
+   <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+   <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/LSU_JJA/33/json"][@timestamp="2016-11-29 16:01:12"]</xpath>
+</xpathList>

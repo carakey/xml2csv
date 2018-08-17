@@ -6,7 +6,9 @@
     
     <xsl:output method="text"/>
     
-    <xsl:param name="headerFile" select="'headers_test.xml'"/>
+    <xsl:param name="headerFile">
+        <xsl:text>jja_fields.xml</xsl:text>
+    </xsl:param>
     <xsl:variable name="fieldList" select="document($headerFile)"/>
         
     <xsl:template match="/">
@@ -15,17 +17,17 @@
     </xsl:template>
     
     <!-- to do: 
+        * add comments
         * not getting dmGetItemInfo (deliberately, for now, but need to address)
         * subject strings - delimit sibling topics with dashes and separate subjects with semicolons
         * nameParts & roleTerms
-        * title.. should be fine?
-        * qualified dates may be problematic
+        * further testing of titles, qualified dates
     -->
     
     <!-- Begin header row -->
     <xsl:template name="headerRow">
         <xsl:for-each select="$fieldList//field">
-            <xsl:value-of select="header"/>
+            <xsl:value-of select="fieldName"/>
             <xsl:choose>
                 <xsl:when test="position()!=last()">
                     <xsl:text>,</xsl:text>
@@ -41,7 +43,7 @@
     <xsl:template match="mods">
         <xsl:variable name="record" select="."/>
         <xsl:for-each select="$fieldList//field">
-            <xsl:variable name="header" select="header"/>
+            <xsl:variable name="header" select="fieldName"/>
             <xsl:variable name="labelMatch" select="$record/*[@displayLabel=$header]"/>
             <xsl:variable name="elementMatch" select="$record//*[name()=$header]"/>
             
