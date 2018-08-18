@@ -10,10 +10,11 @@ The use case for which this was first developed was the export of MODS records f
 
 ### Notes:  
 
-* Either XML editing/debugging software such as Oxygen or a command-line XSLT processor such as Saxon is required to.
-* While designed with MODS in mind, the **xpath_list.xsl** stylesheet should work with any standard XML schema as input, to create a list (in arbitrary XML) of every XPath present in the source document.
-* The metadata sets on which this was tested were originally migrated to Islandora from CONTENTdm using the [Move to Islandora Kit](https://github.com/MarcusBarnes/mik), and these stylesheets may include remnants and relics of particular data structures from MIK and/or CONTENTdm.
+* Either XML editing/debugging software such as Oxygen or a command-line XSLT processor such as Saxon is required to run the transforms.
+* While designed with MODS in mind, the **xpath_list.xsl** stylesheet should work with any well-formed XML document as input, to create a list (in arbitrary XML) of every XPath present in the source document. Note that this is not yet a unique list; the next step, using **field_list.xsl**, isolates the unique XPaths.
+* The metadata sets on which this process was tested were exclusively MODS XML records, and the XSLT herein includes MODS artifacts.  
 * The MODS metadata sets on which this was tested make heavy use of *displayLabel* attributes to distinguish specific elements, which is in turn reflected in the XSLT.
+* The metadata sets on which this was tested were originally migrated to Islandora from CONTENTdm using the [Move to Islandora Kit](https://github.com/MarcusBarnes/mik), and these stylesheets may include remnants and relics of particular data structures from MIK and/or CONTENTdm.
 
 ## Applications
 
@@ -24,7 +25,11 @@ The use case for which this was first developed was the export of MODS records f
 
 ## Process
 
-General workflow is to (1) export/prepare source XML metadata; (2) create a list all XPaths present in the source document; (3) create a list of unique fields present in the source document; (4) create a CSV by cross-referencing the source metadata document with the field list.
+General workflow is to:
+1. [Export/prepare source XML metadata](#1-prepare-a-single-source-xml-metadata-document)
+1. [Create a list all XPaths present in the source document](2-create-a-list-of-all-xpaths-in-the-metadata)
+1. [Create a list of unique fields present in the source document](3-create-a-list-of-the-unique-fields-present-in-the-metadata)
+1. [Create a CSV file by cross-referencing the source metadata document with the field list](4-create-a-csv-file-of-the-metadata-arranged-using-the-list-of-fields)
 
 ### 1. Prepare a single source XML metadata document
 
@@ -43,7 +48,7 @@ Merge the multiple MODS XML files into a single "MODS Collection" XML file with 
 
 ![Screenshot of modsCollection document in Oxygen](assets/modsCollection_oxygen.JPG)
 
-### 2. Create a list of all XPaths in the collection
+### 2. Create a list of all XPaths in the metadata
 
 The **xpath_list.xsl** stylesheet reads a source XML file and outputs an arbitrary XML file listing each XPath in the source as a string. In the resulting document, the distinct-values() function may be used to identify unique XPaths.
 
@@ -77,7 +82,7 @@ The field names from the field list will be the column headers. There will be on
 
 ## Known Issues & Intended Improvements
 
-* CSV Maker is not working. 
+* CSV Maker is not working.
 * In field_list.xsl:
     * add @type as a modifier for naming fields
     * insert special handling of snowflake fields in this file
