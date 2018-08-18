@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-    xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:mods="http://www.loc.gov/mods/v3"
-    xpath-default-namespace="http://www.loc.gov/mods/v3" exclude-result-prefixes="xs" version="2.0"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xpath-default-namespace="http://www.loc.gov/mods/v3" exclude-result-prefixes="xs #default" version="2.0"
     xmlns="http://www.loc.gov/mods/v3">
 
     <!--   
-    This stylesheet merges a directory of MODS XML files into a single MODS XML file 
-    with a mods:modsCollection root element.
+    This stylesheet merges a directory of MODS XML files into a single XML file 
+    with a modsCollection root element. Source document namespaces are omitted.
     -->
 
     <xsl:output method="xml" version="1.0" encoding="UTF-8" indent="yes"/>
@@ -14,7 +14,7 @@
     <!-- USER: update the value with the path to the directory where the MODS XML files are located;
             Note that the trailing slash must be present. -->
     <xsl:param name="directoryName">
-        <xsl:text>input_directory/</xsl:text>
+        <xsl:text>sample_data/input_directory/</xsl:text>
     </xsl:param>
 
     <!-- Creates the root modsCollection element and calls XML documents in the named directory -->
@@ -26,7 +26,7 @@
 
     <!-- Identity transform to copy the contents of each MODS XML file -->
     <xsl:template match="@* | node()">
-        <xsl:copy>
+        <xsl:copy copy-namespaces="no">
             <xsl:apply-templates select="@* | node()"/>
         </xsl:copy>
     </xsl:template>
@@ -43,7 +43,7 @@
                 />
             </identifier>
         </xsl:if>
-        <xsl:copy-of select="."/>
+        <xsl:copy-of select="." copy-namespaces="no"/>
     </xsl:template>
 
 </xsl:stylesheet>
