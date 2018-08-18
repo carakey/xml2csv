@@ -10,7 +10,7 @@ The use case for which this was first developed was the export of MODS records f
 
 ### Notes:  
 
-* Either XML editing/debugging software such as Oxygen or a command-line XSLT processor such as Saxon is required to run the transforms.
+* Either XML editing/debugging software such as Oxygen or a command-line XSLT processor such as Saxon is required to run the transforms. Refer to the section on [Notes on Processing with Saxon](#notes-on-processing-with-saxon), below.
 * While designed with MODS in mind, the **xpath_list.xsl** stylesheet should work with any well-formed XML document as input, to create a list (in arbitrary XML) of every XPath present in the source document. Note that this is not yet a unique list; the next step, using **field_list.xsl**, isolates the unique XPaths.
 * The metadata sets on which this process was tested were exclusively MODS XML records, and the XSLT herein includes MODS artifacts.  
 * The MODS metadata sets on which this was tested make heavy use of *displayLabel* attributes to distinguish specific elements, which is in turn reflected in the XSLT.
@@ -37,14 +37,16 @@ The follow-on XSLT stylesheets could have been written to take an arbitrary numb
 
 The use case for this process involves the export of metadata records from a digital library using a third party utility. However, there's no reason the later steps wouldn't work with XML from another source -- say, OAI-PMH harvested metadata.
 
+_Namespace disagreement problem: Because the XPath list and field list steps are in arbitrary XML, the source XML document should not have a default namespace declaration (e.g. 'xmlns="http://www.loc.gov/mods/v3')._
+
 **For exporting MODS XML records from Islandora 7.X**, we recommend [Islandora Datastream CRUD](https://github.com/SFULibrary/islandora_datastream_crud). This utility will produce one MODS XML file per PID.
 
-Merge the multiple MODS XML files into a single "MODS Collection" XML file with a `<mods:modsCollection>` root element using **mods_xml_merge.xsl**.
+Merge the multiple MODS XML files into a single "MODS Collection" XML file with a `<modsCollection>` root element using **mods_xml_merge.xsl**.
 * _Usage:_ With the location of the XML files as the _directoryName_ parameter and the XSLT file itself as the source, run **mods_xml_merge.xsl** in Oxygen, or at the command line with Saxon:
-  * `java -jar saxon9he.jar -s:mods_xml_merge.xsl -xsl:mods_xml_merge.xsl -o:collectionName_mods.xml directoryName=input_directory/`  
-  * Because of the 'directoryName' parameter, this must be run from the location of the input directory.  
-  * The input directory name is passed in as the 'directoryName' parameter, INCLUDING the trailing slash.  
+  * `java -jar saxon9he.jar -s:mods_xml_merge.xsl -xsl:mods_xml_merge.xsl -o:collectionName_mods.xml directoryName=sample_data/input_directory/`  
+  * The input directory and its path is passed in as the 'directoryName' parameter, INCLUDING the trailing slash.  
 * This stylesheet also adds an `<identifier>` element to each MODS record, with the item's PID as its value, derived from the MODS XML filename as formatted by the Datastream CRUD output.
+* Based on the sample metadata, this stylesheet currently does produce output with a default namespace declaration: '<modsCollection xmlns="http://www.loc.gov/mods/v3>'. Until this can be accounted for in the XSLT, **the user must edit the document to remove this declaration** (i.e. delete 'xmlns="http://www.loc.gov/mods/v3'.)
 
 ![Screenshot of modsCollection document in Oxygen](assets/modsCollection_oxygen.JPG)
 
@@ -82,7 +84,7 @@ The field names from the field list will be the column headers. There will be on
 
 ## Known Issues & Intended Improvements
 
-* CSV Maker is not working.
+* Namespace disagreement problem -- remove all xmlns="..." from source XML (or alternate solution...?).
 * In field_list.xsl:
     * add @type as a modifier for naming fields
     * insert special handling of snowflake fields in this file
@@ -91,3 +93,9 @@ The field names from the field list will be the column headers. There will be on
 * Get the distinct values at the XPath List step rather than the Field List step.
 * Mapping back from CSV to MODS with MIK is completely untested; the double quotes in attribute values need to be replaced with apostrophes.
 * Additional namespace declarations will be needed in header of csv_maker to handle non-MODS
+
+## Notes on Processing with Saxon
+
+First, be sure to have downloaded Saxon to your local machine. The example commands here (copied from above) assume that it is available from the root of the directory created when you clone this repository. If you downloaded it here, great! Otherwise, it may be useful to make a symbolic link/shortcut from the downloaded unzipped .jar location (shown as /opt/saxon) to this directory, as shown in the first step:
+* `ln -s /opt/saxon/saxon9he.jar saxon9he.jar`
+* `java -jar saxon9he.jar -s:mods_xml_merge.xsl -xsl:mods_xml_merge.xsl -o:collectionName_mods.xml directoryName=sample_data/input_directory/`
