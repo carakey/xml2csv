@@ -59,7 +59,7 @@ _Note that these strings cannot be substituted for expressions in follow-on XSLT
 * _Usage:_ With the single XML metadata document as the source, run **xpath_list.xsl** in Oxygen, or at the command line with Saxon:
   * `java -jar saxon9he.jar -s:collectionName_mods.xml -xsl:xpath_list.xsl -o:collectionName_xpaths.xml`
 
-![Screenshot of xpath_list output document in Oxygen](assets/xpath_list_output.JPG)
+![Screenshot of xpath_list output document in Oxygen](assets/xpath_list_output.png)
 
 ### 3. Create a list of the unique fields present in the metadata
 
