@@ -48,7 +48,7 @@ Merge the multiple MODS XML files into a single "MODS Collection" XML file with 
 * This stylesheet also adds an `<identifier>` element to each MODS record, with the item's PID as its value, derived from the MODS XML filename as formatted by the Datastream CRUD output.
 * Based on the sample metadata, this stylesheet currently does produce output with a default namespace declaration: '<modsCollection xmlns="http://www.loc.gov/mods/v3>'. Until this can be accounted for in the XSLT, **the user must edit the document to remove this declaration** (i.e. delete 'xmlns="http://www.loc.gov/mods/v3'.)
 
-![Screenshot of modsCollection document in Oxygen](assets/modsCollection_oxygen.JPG)
+![Screenshot of modsCollection document in Oxygen](assets/modsCollection_oxygen.png)
 
 ### 2. Create a list of all XPaths in the metadata
 
