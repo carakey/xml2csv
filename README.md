@@ -90,7 +90,7 @@ The field names from the field list will be the column headers. There will be on
 
 ## Processing the sample data with saxon
 
-First, be sure to have downloaded saxon to your local machine. The example commands here (copied from above) assume that it is available from the root of the directory created when you clone this repository. If you downloaded it here, great! Otherwise, it may be useful to make a symbolic from the download location to this directory, as shown in the first step:
+First, be sure to have downloaded Saxon to your local machine. The example commands here (copied from above) assume that it is available from the root of the directory created when you clone this repository. If you downloaded it here, great! Otherwise, it may be useful to make a symbolic link/shortcut from the downloaded unzipped .jar location (shown as /opt/saxon) to this directory, as shown in the first step:
 
 * `ln -s /opt/saxon/saxon9he.jar saxon9he.jar`
 * `java -jar saxon9he.jar -s:mods_xml_merge.xsl -xsl:mods_xml_merge.xsl -o:collectionName_mods.xml directoryName=input_directory/`
