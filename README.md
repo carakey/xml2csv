@@ -27,9 +27,9 @@ The use case for which this was first developed was the export of MODS records f
 
 General workflow is to:
 1. [Export/prepare source XML metadata](#1-prepare-a-single-source-xml-metadata-document)
-1. [Create a list all XPaths present in the source document](2-create-a-list-of-all-xpaths-in-the-metadata)
-1. [Create a list of unique fields present in the source document](3-create-a-list-of-the-unique-fields-present-in-the-metadata)
-1. [Create a CSV file by cross-referencing the source metadata document with the field list](4-create-a-csv-file-of-the-metadata-arranged-using-the-list-of-fields)
+1. [Create a list all XPaths present in the source document](#2-create-a-list-of-all-xpaths-in-the-metadata)
+1. [Create a list of unique fields present in the source document](#3-create-a-list-of-the-unique-fields-present-in-the-metadata)
+1. [Create a CSV file by cross-referencing the source metadata document with the field list](#4-create-a-csv-file-of-the-metadata-arranged-using-the-list-of-fields)
 
 ### 1. Prepare a single source XML metadata document
 
