@@ -72,7 +72,7 @@ The output of field_list.xsl can be used for numerous QA applications, such as e
 * _Usage:_ With the output of xpath_list.xsl as the source, run **field_list.xsl** in Oxygen, or at the command line with Saxon:
   * `java -jar saxon9he.jar -s:collectionName_xpaths.xml -xsl:field_list.xsl -o:collectionName_fields.xml`
 
-![Screenshot of field_list output document in Oxygen](assets/field_list_output.JPG)
+![Screenshot of field_list output document in Oxygen](assets/field_list_output.png)
 
 ### 4. Create a CSV file of the metadata arranged using the list of fields
 
