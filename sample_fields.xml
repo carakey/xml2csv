@@ -8,67 +8,67 @@
    </field>
    <field>
       <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/title</xpath>
-      <fieldName>Common name (on plate)</fieldName>
+      <fieldName>Common name (on plate) :: title</fieldName>
       <mapping>&lt;titleInfo @usage="primary" @displayLabel="Common name (on plate)"&gt;&lt;title&gt;%value%&lt;/title&gt;&lt;/titleInfo&gt;</mapping>
    </field>
    <field>
       <xpath>/modsCollection/mods/titleInfo[@displayLabel="Part"]/partNumber</xpath>
-      <fieldName>Part</fieldName>
+      <fieldName>Part :: partNumber</fieldName>
       <mapping>&lt;titleInfo @displayLabel="Part"&gt;&lt;partNumber&gt;%value%&lt;/partNumber&gt;&lt;/titleInfo&gt;</mapping>
    </field>
    <field>
       <xpath>/modsCollection/mods/titleInfo[@displayLabel="Plate"]/partNumber</xpath>
-      <fieldName>Plate</fieldName>
+      <fieldName>Plate :: partNumber</fieldName>
       <mapping>&lt;titleInfo @displayLabel="Plate"&gt;&lt;partNumber&gt;%value%&lt;/partNumber&gt;&lt;/titleInfo&gt;</mapping>
    </field>
    <field>
       <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name (on plate)"]/subTitle</xpath>
-      <fieldName>Scientific name (on plate)</fieldName>
+      <fieldName>Scientific name (on plate) :: subTitle</fieldName>
       <mapping>&lt;titleInfo @displayLabel="Scientific name (on plate)"&gt;&lt;subTitle&gt;%value%&lt;/subTitle&gt;&lt;/titleInfo&gt;</mapping>
    </field>
    <field>
       <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
-      <fieldName>Artist</fieldName>
+      <fieldName>Artist :: namePart</fieldName>
       <mapping>&lt;name @displayLabel="Artist"&gt;&lt;namePart&gt;%value%&lt;/namePart&gt;&lt;/name&gt;</mapping>
    </field>
    <field>
       <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
-      <fieldName>Artist</fieldName>
+      <fieldName>Artist :: role :: roleTerm @type="code" @authority="marcrelator"</fieldName>
       <mapping>&lt;name @displayLabel="Artist"&gt;&lt;role&gt;&lt;roleTerm @type="code" @authority="marcrelator"&gt;%value%&lt;/roleTerm&gt;&lt;/role&gt;&lt;/name&gt;</mapping>
    </field>
    <field>
       <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
-      <fieldName>Artist</fieldName>
+      <fieldName>Artist :: role :: roleTerm @type="text" @authority="marcrelator"</fieldName>
       <mapping>&lt;name @displayLabel="Artist"&gt;&lt;role&gt;&lt;roleTerm @type="text" @authority="marcrelator"&gt;%value%&lt;/roleTerm&gt;&lt;/role&gt;&lt;/name&gt;</mapping>
    </field>
    <field>
       <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/namePart</xpath>
-      <fieldName>Donated by</fieldName>
+      <fieldName>Donated by :: namePart</fieldName>
       <mapping>&lt;name @displayLabel="Donated by"&gt;&lt;namePart&gt;%value%&lt;/namePart&gt;&lt;/name&gt;</mapping>
    </field>
    <field>
       <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
-      <fieldName>Donated by</fieldName>
+      <fieldName>Donated by :: role :: roleTerm @type="code" @authority="marcrelator"</fieldName>
       <mapping>&lt;name @displayLabel="Donated by"&gt;&lt;role&gt;&lt;roleTerm @type="code" @authority="marcrelator"&gt;%value%&lt;/roleTerm&gt;&lt;/role&gt;&lt;/name&gt;</mapping>
    </field>
    <field>
       <xpath>/modsCollection/mods/name[@displayLabel="Donated by"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
-      <fieldName>Donated by</fieldName>
+      <fieldName>Donated by :: role :: roleTerm @type="text" @authority="marcrelator"</fieldName>
       <mapping>&lt;name @displayLabel="Donated by"&gt;&lt;role&gt;&lt;roleTerm @type="text" @authority="marcrelator"&gt;%value%&lt;/roleTerm&gt;&lt;/role&gt;&lt;/name&gt;</mapping>
    </field>
    <field>
       <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/namePart</xpath>
-      <fieldName>Engraver/lithographer</fieldName>
+      <fieldName>Engraver/lithographer :: namePart</fieldName>
       <mapping>&lt;name @displayLabel="Engraver&gt;&lt;lithographer"&gt;&lt;namePart&gt;%value%&lt;/namePart&gt;&lt;/lithographer"]&gt;&lt;/name&gt;</mapping>
    </field>
    <field>
       <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
-      <fieldName>Engraver/lithographer</fieldName>
+      <fieldName>Engraver/lithographer :: role :: roleTerm @type="code" @authority="marcrelator"</fieldName>
       <mapping>&lt;name @displayLabel="Engraver&gt;&lt;lithographer"&gt;&lt;role&gt;&lt;roleTerm @type="code" @authority="marcrelator"&gt;%value%&lt;/roleTerm&gt;&lt;/role&gt;&lt;/lithographer"]&gt;&lt;/name&gt;</mapping>
    </field>
    <field>
       <xpath>/modsCollection/mods/name[@displayLabel="Engraver/lithographer"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
-      <fieldName>Engraver/lithographer</fieldName>
+      <fieldName>Engraver/lithographer :: role :: roleTerm @type="text" @authority="marcrelator"</fieldName>
       <mapping>&lt;name @displayLabel="Engraver&gt;&lt;lithographer"&gt;&lt;role&gt;&lt;roleTerm @type="text" @authority="marcrelator"&gt;%value%&lt;/roleTerm&gt;&lt;/role&gt;&lt;/lithographer"]&gt;&lt;/name&gt;</mapping>
    </field>
    <field>
@@ -88,7 +88,7 @@
    </field>
    <field>
       <xpath>/modsCollection/mods/subject[@displayLabel="Location of bird drawn"]/geographic</xpath>
-      <fieldName>Location of bird drawn</fieldName>
+      <fieldName>Location of bird drawn :: geographic</fieldName>
       <mapping>&lt;subject @displayLabel="Location of bird drawn"&gt;&lt;geographic&gt;%value%&lt;/geographic&gt;&lt;/subject&gt;</mapping>
    </field>
    <field>
@@ -108,7 +108,7 @@
    </field>
    <field>
       <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
-      <fieldName>note</fieldName>
+      <fieldName>note @type="medium"</fieldName>
       <mapping>&lt;physicalDescription&gt;&lt;note @type="medium"&gt;%value%&lt;/note&gt;&lt;/physicalDescription&gt;</mapping>
    </field>
    <field>
@@ -128,7 +128,7 @@
    </field>
    <field>
       <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
-      <fieldName>languageTerm</fieldName>
+      <fieldName>languageTerm @type="code"</fieldName>
       <mapping>&lt;language&gt;&lt;languageTerm @type="code"&gt;%value%&lt;/languageTerm&gt;&lt;/language&gt;</mapping>
    </field>
    <field>
@@ -138,7 +138,7 @@
    </field>
    <field>
       <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
-      <fieldName>Digital Collection</fieldName>
+      <fieldName>Digital Collection :: title</fieldName>
       <mapping>&lt;relatedItem @type="host"&gt;&lt;titleInfo @displayLabel="Digital Collection"&gt;&lt;title&gt;%value%&lt;/title&gt;&lt;/titleInfo&gt;&lt;/relatedItem&gt;</mapping>
    </field>
    <field>
@@ -148,7 +148,7 @@
    </field>
    <field>
       <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@type="alternative"][@displayLabel="Repository Collection"]/title</xpath>
-      <fieldName>Repository Collection</fieldName>
+      <fieldName>Repository Collection :: title</fieldName>
       <mapping>&lt;relatedItem @type="host"&gt;&lt;titleInfo @type="alternative" @displayLabel="Repository Collection"&gt;&lt;title&gt;%value%&lt;/title&gt;&lt;/titleInfo&gt;&lt;/relatedItem&gt;</mapping>
    </field>
    <field>
@@ -238,12 +238,12 @@
    </field>
    <field>
       <xpath>/modsCollection/mods/titleInfo[@displayLabel="Common name of plant"]/subTitle</xpath>
-      <fieldName>Common name of plant</fieldName>
+      <fieldName>Common name of plant :: subTitle</fieldName>
       <mapping>&lt;titleInfo @displayLabel="Common name of plant"&gt;&lt;subTitle&gt;%value%&lt;/subTitle&gt;&lt;/titleInfo&gt;</mapping>
    </field>
    <field>
       <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific name of plant"]/subTitle</xpath>
-      <fieldName>Scientific name of plant</fieldName>
+      <fieldName>Scientific name of plant :: subTitle</fieldName>
       <mapping>&lt;titleInfo @displayLabel="Scientific name of plant"&gt;&lt;subTitle&gt;%value%&lt;/subTitle&gt;&lt;/titleInfo&gt;</mapping>
    </field>
    <field>
@@ -258,17 +258,17 @@
    </field>
    <field>
       <xpath>/modsCollection/mods/originInfo/dateIssued[@keyDate="yes"]</xpath>
-      <fieldName>dateIssued</fieldName>
+      <fieldName>dateIssued @keyDate="yes"</fieldName>
       <mapping>&lt;originInfo&gt;&lt;dateIssued @keyDate="yes"&gt;%value%&lt;/dateIssued&gt;&lt;/originInfo&gt;</mapping>
    </field>
    <field>
       <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common name (on plate)"]/nonSort</xpath>
-      <fieldName>Common name (on plate)</fieldName>
+      <fieldName>Common name (on plate) :: nonSort</fieldName>
       <mapping>&lt;titleInfo @usage="primary" @displayLabel="Common name (on plate)"&gt;&lt;nonSort&gt;%value%&lt;/nonSort&gt;&lt;/titleInfo&gt;</mapping>
    </field>
    <field>
       <xpath>/modsCollection/mods/note[@type="content"]</xpath>
-      <fieldName>note</fieldName>
+      <fieldName>note @type="content"</fieldName>
       <mapping>&lt;note @type="content"&gt;%value%&lt;/note&gt;</mapping>
    </field>
 </fieldList>

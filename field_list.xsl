@@ -14,8 +14,6 @@
     
     <!-- To Do:
         * add comments to fieldName and mapping templates
-        * add @type as a modifier for naming fields 
-        * handle the case where a displayLabel element has multiple children
     -->
     
     <!-- Creates a list of unique XPaths and stores it as a variable; omits certain migration-related data from MODS extension fields -->
@@ -49,16 +47,22 @@
     <xsl:template name="fieldName">
         <xsl:variable name="terminus" select="replace(., '^.*/', '')"/>
         <xsl:choose>
-<!--            <xsl:when test="contains(., 'roleTerm')">
+            <!--            <xsl:when test="contains(., 'roleTerm')">
                 <xsl:value-of select="'roleTerm'"/>
             </xsl:when>-->
             <xsl:when test="contains(., 'displayLabel')">
-                <xsl:value-of
-                    select="substring-before(substring-after(., 'displayLabel=&quot;'), '&quot;]')"
-                />
+                <xsl:variable name="labelValue"
+                    select="substring-before(substring-after(., 'displayLabel=&quot;'), '&quot;]')"/>
+                <xsl:value-of select="$labelValue"/>
+                <xsl:if test="contains(substring-after(., $labelValue), '/')">
+                    <xsl:for-each select="tokenize(substring-after(substring-after(., $labelValue), '/'[1]), '/')">
+                        <xsl:text> :: </xsl:text>
+                        <xsl:value-of select="replace(replace(., '\[', ' '), '\]', '')"/>
+                    </xsl:for-each>
+                </xsl:if>
             </xsl:when>
             <xsl:otherwise>
-                <xsl:value-of select="replace($terminus, '\[.*', '')"/>
+                <xsl:value-of select="replace(replace($terminus, '\[', ' '), '\]', '')"/>
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
