@@ -49,22 +49,10 @@
             
             <xsl:variable name="value">
                 <xsl:choose>
-                    
-                    <xsl:when test="$header='roleTerm'"/><!-- fix this -->
-                    
-                    <xsl:when test="not(contains(./path,'displayLabel'))">
-                        <xsl:choose>
-                            <xsl:when test="$header='title'">
-                                <xsl:for-each select="$record/titleInfo[not(@*)]/title">
-                                    <xsl:call-template name="cell"/>
-                                </xsl:for-each>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:for-each select="$elementMatch">
-                                    <xsl:call-template name="cell"/>
-                                </xsl:for-each>
-                            </xsl:otherwise>
-                        </xsl:choose>
+                    <xsl:when test="not(contains(xpath, 'displayLabel'))">
+                        <xsl:for-each select="$elementMatch">
+                            <xsl:call-template name="cell"/>
+                        </xsl:for-each>
                     </xsl:when>
                     <xsl:when test="$labelMatch">
                         <xsl:for-each select="$labelMatch">
