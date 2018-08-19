@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<modsCollection xmlns="http://www.loc.gov/mods/v3">
+<modsCollection>
    <mods>
       <identifier type="local" displayLabel="PID">sample:34</identifier>
       <titleInfo usage="primary" displayLabel="Common name (on plate)">
