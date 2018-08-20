@@ -20,14 +20,14 @@
         * add comments
         * not getting dmGetItemInfo (deliberately, for now, but need to address)
         * subject strings - delimit sibling topics with dashes and separate subjects with semicolons
-        * nameParts & roleTerms
-        * further testing of titles, qualified dates
     -->
     
     <!-- Begin header row -->
+    <!-- Uses the fieldNames from the field_list.xsl output as column headers -->
     <xsl:template name="headerRow">
         <xsl:for-each select="$fieldList//field">
             <xsl:value-of select="fieldName"/>
+            <!-- Inserts a comma after each header until the last, then inserts a new line -->
             <xsl:choose>
                 <xsl:when test="position()!=last()">
                     <xsl:text>,</xsl:text>
@@ -40,23 +40,29 @@
     </xsl:template>
     <!-- End header row -->
   
-    <xsl:template match="mods">
-        <xsl:variable name="record" select="."/>
+    <!-- Begin building record rows -->
+    <xsl:template match="mods"><!-- Matches each MODS record -->
+        <xsl:variable name="record" select="."/><!-- Stores the entire MODS record as a variable -->
         <xsl:for-each select="$fieldList//field">
             <xsl:variable name="header" select="fieldName"/>
             
             <xsl:variable name="labelMatch">
+                <xsl:variable name="labelValue" select="substring-before($header, ' ::')"/>
+                <xsl:variable name="terminus" select="replace($header, '^.*:: ', '')"/>
+                <xsl:variable name="terminusName" select="substring-before($terminus, ' @')"/>
+                <xsl:variable name="attName" select="substring-before(substring-after($terminus, ' @'),'=')"/>
+                <xsl:variable name="attValue" select="substring-before(substring-after(substring-after($terminus, $attName), '=&quot;'), '&quot;')"/>
                 <xsl:choose>
                     <xsl:when test="contains($header, '::')">
                         <xsl:choose>
                             <xsl:when test="contains($header, '@')">
                                 <xsl:value-of
-                                    select="$record//*[@displayLabel = substring-before($header, ' ::')]//*[name() = substring-before(replace($header, '^.*:: ', ''), ' @')]"
+                                    select="$record//*[@displayLabel = $labelValue]//*[name() = $terminusName][@*[name() = $attName] = $attValue]"
                                 />
                             </xsl:when>
                             <xsl:otherwise>
                                 <xsl:value-of
-                                    select="$record//*[@displayLabel = substring-before($header, ' ::')]//*[name() = replace($header, '^.*:: ', '')]"
+                                    select="$record//*[@displayLabel = $labelValue]//*[name() = $terminus]"
                                 />
                             </xsl:otherwise>
                         </xsl:choose>
@@ -117,6 +123,7 @@
         </xsl:for-each>
     </xsl:template>
 
+    
     <xsl:template name="cell">
         <xsl:value-of select="normalize-space(.)"/>
         <xsl:if test="position()!=last()">
