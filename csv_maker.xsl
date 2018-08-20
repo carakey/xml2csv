@@ -44,7 +44,24 @@
         <xsl:variable name="record" select="."/>
         <xsl:for-each select="$fieldList//field">
             <xsl:variable name="header" select="fieldName"/>
-            <xsl:variable name="labelMatch" select="$record//*[@displayLabel=$header]"/>
+            <xsl:variable name="labelMatch">
+                <xsl:choose>
+                    <xsl:when test="contains($header,'::')">
+                        <xsl:choose>
+                            <xsl:when test="contains($header, '@')">
+                                <xsl:value-of select="$record//*[@displayLabel=substring-before($header, ' ::')]//*[name()=substring-before(replace($header, '^.*:: ', ''), ' @')]"/>        
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of select="$record//*[@displayLabel=substring-before($header, ' ::')]//*[name()=replace($header, '^.*:: ', '')]"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                        
+                    </xsl:when>
+                    <xsl:otherwise>
+                        <xsl:value-of select="$record//*[@displayLabel=$header]"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:variable>
             <xsl:variable name="elementMatch" select="$record//*[name()=$header]"/>
             
             <xsl:variable name="value">
