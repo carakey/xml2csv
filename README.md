@@ -79,20 +79,24 @@ The output of field_list.xsl can be used for numerous QA applications, such as e
 The field names from the field list will be the column headers. There will be one row of data per metadata record.
 
 * _Usage:_ With the single XML metadata document as the source, and with the output of field_list.xsl as the _headerFile_ parameter, run **csv_maker.xsl** in Oxygen, or at the command line with Saxon:
-  * `java -jar saxon9he.jar -s:collectionName_mods.xml -xsl:csv_maker.xsl -o:collectionName.csv headerFile=collectionName_mods.xml`
+  * `java -jar saxon9he.jar -s:collectionName_mods.xml -xsl:csv_maker.xsl -o:collectionName.csv headerFile=collectionName_fields.xml`
 
+![Screenshot of csv_maker output document in Oxygen](assets/csv_maker_output.png)
+
+The resulting CSV file can be opened and edited with a regular spreadsheet-viewing application.
+
+![Screenshot of CSV in Google Sheets](assets/csv_sheets.png)
 
 ## Known Issues & Intended Improvements
 
-* Namespace disagreement problem -- remove all xmlns="..." from source XML (or alternate solution...?).
-* In field_list.xsl:
-    * add @type as a modifier for naming fields
-    * insert special handling of snowflake fields in this file
-        * Example: name/ namePart + roleTerm
-    * handle the case where a displayLabel element has multiple children
+* Namespace disagreement problem -- remove all xmlns="..." from source XML (or alternate solution...?). Acknowledging that this probably strays from best practice, but how else to make the tools generalizable?
+* !! Attributes that are paired with or substitute for an element's content (such as @xlink:href or @valueURI) will result in a unique column header for every unique attribute value. Is there any better way than to identify where they exist, explicitly exclude them (at the field_list.xsl stage), and create a separate <field> for them?
+* Generally speaking, evaluating the metadata XML document against the list of headers is brittle, tricky, prone to exceptions, and otherwise fraught with peril. Ideally we would be able to evaluate the XML using the full xpaths instead, but alas, as they have been string-ified, this cannot (?) be done with XSLT 2.0 alone.   
 * Get the distinct values at the XPath List step rather than the Field List step.
+* "Double-repeated" CSV cell values like those from roleTerm elements (in the roleTerm case, checking for for the type attribute would solve it).
+* Handling of MODS subject/* elements in CSV: ideal would be to have all subelements within a single <subject> wrapper to appear as a single string with double-dash delimiter, with separate <subject> strings having a semicolon delimiter.
+* (LDL specific issue) Currently the process omits the JSON-encoded CONTENTdm migration data that was brought in as an extension field with MIK.
 * Mapping back from CSV to MODS with MIK is completely untested; the double quotes in attribute values need to be replaced with apostrophes.
-* Additional namespace declarations will be needed in header of csv_maker to handle non-MODS
 
 ## Notes on Processing with Saxon
 
@@ -102,6 +106,6 @@ First, be sure to have downloaded Saxon to your local machine. The example comma
 * `java -jar saxon9he.jar -s:mods_xml_merge.xsl -xsl:mods_xml_merge.xsl -o:collectionName_mods.xml directoryName=sample_data/input_directory/`
  * `java -jar saxon9he.jar -s:collectionName_mods.xml -xsl:xpath_list.xsl -o:collectionName_xpaths.xml`
  * `java -jar saxon9he.jar -s:collectionName_xpaths.xml -xsl:field_list.xsl -o:collectionName_fields.xml`
- * `java -jar saxon9he.jar -s:collectionName_mods.xml -xsl:csv_maker.xsl -o:collectionName.csv headerFile=collectionName_mods.xml`
+ * `java -jar saxon9he.jar -s:collectionName_mods.xml -xsl:csv_maker.xsl -o:collectionName.csv headerFile=collection_fields.xml`
 
 Saxon HE is on SourceForge, somewhere like this: https://sourceforge.net/projects/saxon/files/Saxon-HE/9.8/
