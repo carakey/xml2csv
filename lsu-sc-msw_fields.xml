@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fieldList>
+   <fieldCount>61</fieldCount>
+   <field>
+      <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
+      <fieldName>PID</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/titleInfo[@usage="primary"][@displayLabel="Common Name"]/title</xpath>
+      <fieldName>Common Name :: title</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/titleInfo[@displayLabel="Scientific Name (Species)"]/subTitle</xpath>
+      <fieldName>Scientific Name (Species) :: subTitle</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/name[@displayLabel="Collector"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+      <fieldName>Collector :: role :: roleTerm @type="text" @authority="marcrelator"</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/name[@displayLabel="Collector"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+      <fieldName>Collector :: role :: roleTerm @type="code" @authority="marcrelator"</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/name[@displayLabel="Collector"]/namePart</xpath>
+      <fieldName>Collector :: namePart</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
+      <fieldName>Artist :: namePart</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
+      <fieldName>Artist :: role :: roleTerm @type="code" @authority="marcrelator"</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
+      <fieldName>Artist :: role :: roleTerm @type="text" @authority="marcrelator"</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/originInfo/dateCreated[@keyDate="yes"][@point="start"]</xpath>
+      <fieldName>dateCreated @keyDate="yes" @point="start"</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/originInfo/publisher</xpath>
+      <fieldName>publisher</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/originInfo/dateCaptured</xpath>
+      <fieldName>dateCaptured</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/originInfo/dateCreated[@point="end"]</xpath>
+      <fieldName>dateCreated @point="end"</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/subject[@displayLabel="Place Collected"]/geographic</xpath>
+      <fieldName>Place Collected :: geographic</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/subject[@displayLabel="Time Period"]/temporal</xpath>
+      <fieldName>Time Period :: temporal</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/abstract[@displayLabel="Description"]</xpath>
+      <fieldName>Description</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Family Name (Latin)"]</xpath>
+      <fieldName>Family Name (Latin)</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Family Name (English)"]</xpath>
+      <fieldName>Family Name (English)</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Date(s) Collected"]</xpath>
+      <fieldName>Date(s) Collected</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/typeOfResource</xpath>
+      <fieldName>typeOfResource</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/physicalDescription/note[@type="medium"]</xpath>
+      <fieldName>note @type="medium"</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/physicalDescription/internetMediaType</xpath>
+      <fieldName>internetMediaType</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/physicalDescription/extent</xpath>
+      <fieldName>extent</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/language/languageTerm[@type="code"]</xpath>
+      <fieldName>languageTerm @type="code"</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/note[@type="ownership"][@displayLabel="Source"]</xpath>
+      <fieldName>Source</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/relatedItem[@type="host"]/location/url[@displayLabel="Relation"]</xpath>
+      <fieldName>Relation</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/relatedItem[@type="host"]/titleInfo[@displayLabel="Digital Collection"]/title</xpath>
+      <fieldName>Digital Collection :: title</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/location/physicalLocation[@authority="oclcorg"][@displayLabel="OCLC Member Symbol"]</xpath>
+      <fieldName>OCLC Member Symbol</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/location/physicalLocation[@displayLabel="Physical Location"]</xpath>
+      <fieldName>Physical Location</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/location/url[@displayLabel="Institution Web Site"]</xpath>
+      <fieldName>Institution Web Site</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/location/holdingSimple/copyInformation/subLocation</xpath>
+      <fieldName>subLocation</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/accessCondition[@type="use and reproduction"][@displayLabel="Contact Information"]</xpath>
+      <fieldName>Contact Information</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/accessCondition[@type="restriction on access"][@displayLabel="Rights"]</xpath>
+      <fieldName>Rights</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/note[@type="preferred citation"][@displayLabel="Cite As"]</xpath>
+      <fieldName>Cite As</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Object File Name"]</xpath>
+      <fieldName>Object File Name</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/identifier[@displayLabel="Migrated From"][@invalid="yes"][@type="uri"]</xpath>
+      <fieldName>Migrated From</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/recordInfo/recordOrigin</xpath>
+      <fieldName>recordOrigin</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/recordInfo/recordCreationDate</xpath>
+      <fieldName>recordCreationDate</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/recordInfo/recordChangeDate</xpath>
+      <fieldName>recordChangeDate</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/extension/fileSize</xpath>
+      <fieldName>fileSize</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/extension/digitizedBy</xpath>
+      <fieldName>digitizedBy</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/extension/imageManipulation</xpath>
+      <fieldName>imageManipulation</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/extension/colorMode</xpath>
+      <fieldName>colorMode</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/extension/cataloger</xpath>
+      <fieldName>cataloger</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/extension/hardwareSoftware</xpath>
+      <fieldName>hardwareSoftware</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/extension/CONTENTdmData/alias</xpath>
+      <fieldName>alias</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/extension/CONTENTdmData/pointer</xpath>
+      <fieldName>pointer</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/extension/imageBitDepth</xpath>
+      <fieldName>imageBitDepth</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/extension/imageResolution</xpath>
+      <fieldName>imageResolution</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/note[@type="content"]</xpath>
+      <fieldName>note @type="content"</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/titleInfo/title</xpath>
+      <fieldName>title</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/name[@type="corporate"][@displayLabel="Owning Institution"]/namePart</xpath>
+      <fieldName>Owning Institution :: namePart</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/name[@type="corporate"][@displayLabel="Owning Institution"]/role/roleTerm[@authority="marcrelator"][@type="text"]</xpath>
+      <fieldName>Owning Institution :: role :: roleTerm @authority="marcrelator" @type="text"</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/name[@type="corporate"][@displayLabel="Owning Institution"]/role/roleTerm[@authority="marcrelator"][@type="code"]</xpath>
+      <fieldName>Owning Institution :: role :: roleTerm @authority="marcrelator" @type="code"</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/typeOfResource[@collection="yes"]</xpath>
+      <fieldName>typeOfResource @collection="yes"</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/language/languageTerm[@authority="iso639-2b"][@type="code"]</xpath>
+      <fieldName>languageTerm @authority="iso639-2b" @type="code"</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Collection Description"]</xpath>
+      <fieldName>Collection Description</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/abstract[@displayLabel="Collection Summary"]</xpath>
+      <fieldName>Collection Summary</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Collection ID"]</xpath>
+      <fieldName>Collection ID</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Migrated From (Search)"]</xpath>
+      <fieldName>Migrated From (Search)</fieldName>
+   </field>
+   <field>
+      <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Migrated From (Landing Page)"]</xpath>
+      <fieldName>Migrated From (Landing Page)</fieldName>
+   </field>
+</fieldList>

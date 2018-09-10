@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:mods="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/mods/v3">
+   <titleInfo usage="primary" displayLabel="Common Name">
+      <title>Narrow-Leaved White Violet</title>
+  </titleInfo>
+   <titleInfo displayLabel="Scientific Name (Species)">
+      <subTitle>Viola lanceolata L. ssp. Vittata (Greene) Russell</subTitle>
+  </titleInfo>
+   <name displayLabel="Collector">
+      <role>
+         <roleTerm type="text" authority="marcrelator">Collector</roleTerm>
+         <roleTerm type="code" authority="marcrelator">col</roleTerm>
+      </role>
+      <namePart>Givens, Florence M.</namePart>
+   </name>
+   <name displayLabel="Artist">
+      <namePart>Stones, Margaret</namePart>
+      <role>
+         <roleTerm type="code" authority="marcrelator">art</roleTerm>
+         <roleTerm type="text" authority="marcrelator">Artist</roleTerm>
+      </role>
+   </name>
+   <originInfo>
+      <dateCreated keyDate="yes" point="start">1976</dateCreated>
+      <publisher>Louisiana State University (Baton Rouge, La.). Libraries</publisher>
+      <dateCaptured>2006-10-07</dateCaptured>
+      <dateCreated point="end">1989</dateCreated>
+  </originInfo>
+   <subject displayLabel="Place Collected">
+      <geographic>St. Tammany Parish</geographic>
+   </subject>
+   <subject displayLabel="Time Period">
+      <temporal>1976-1989</temporal>
+   </subject>
+   <abstract displayLabel="Description">"The narrow-leaved white violet (left) is one of the two white-flowered species that commonly grows in Louisiana.  It is a so-called stemless type, which means it has short, underground stems.  Its leaves form a rosette, and the first ones to appear in the spring are much shorter and wider than the narrowly lanceolate ones that appear later.  The plant's solitary, nodding buds are supported on long stalks.  Upon opening, the flowers, like those of other violets, are bilaterally symmetrical with five sepals and petals.  The intricate veins on the lower half of the spurred petal are purple, while the upper half of this petal and the other four petals are white, sometimes with faintly colored veins.  Narrow-leaved white violet is distributed throughout eastern North America.  The species usually grows in moist, sunny locations in wet pine savannas and along ditches and woodland borders.  Although the violet family in North America essentially consists of the genus Viola, it contains several species of tropical shrubs belonging to several different genera."--Lowell Urbatsch, in the Flora of Louisiana (Baton Rouge, LSU Press, 1991), p. 208</abstract>
+   <note type="content" displayLabel="Family Name (Latin)">VIOLACEAE</note>
+   <note type="content" displayLabel="Family Name (English)">Violet Family</note>
+   <note type="content" displayLabel="Date(s) Collected">April 26, 1982</note>
+   <note type="content">Viola lanceolata ssp. Vittata (Narrow-Leaved White Violet) on left and viola primulifolia (White Violet) on right.
+Common name as appears on drawing is Lance-Leaved Violet.</note>
+   <typeOfResource>still image</typeOfResource>
+   <physicalDescription>
+      <note type="medium">watercolor drawing</note>
+      <internetMediaType>jp2</internetMediaType>
+      <extent>Approx. 57 x 38 cm</extent>
+  </physicalDescription>
+   <language>
+      <languageTerm type="code">en</languageTerm>
+  </language>
+   <note type="ownership" displayLabel="Source">Louisiana State University Libraries, Special Collections ( http://www.lib.lsu.edu/special )</note>
+   <relatedItem type="host">
+      <location>
+         <url displayLabel="Relation">http://lsu.louisianadigitallibrary.org/lsu-msw%3Acollection</url>
+      </location>
+      <titleInfo displayLabel="Digital Collection">
+         <title>Native Flora of Louisiana - Watercolor drawings by Margaret Stones</title>
+      </titleInfo>
+  </relatedItem>
+   <location>
+      <physicalLocation authority="oclcorg" displayLabel="OCLC Member Symbol">LUU</physicalLocation>
+      <physicalLocation displayLabel="Physical Location">Louisiana State University: LSU Libraries</physicalLocation>
+      <url displayLabel="Institution Web Site">http://lib.lsu.edu</url>
+      <holdingSimple>
+         <copyInformation>
+            <subLocation>Hill Memorial Library: Special Collections</subLocation>
+         </copyInformation>
+      </holdingSimple>
+   </location>
+   <accessCondition type="use and reproduction" displayLabel="Contact Information">E-mail lsudiglib@lsu.edu with questions or comments. See instructions for ordering reprints of this item here: http://www.lib.lsu.edu/special/services/duplication.html Mention the "Item number" or "Item URL" in your request. </accessCondition>
+   <accessCondition type="restriction on access" displayLabel="Rights">Image copyright Louisiana State University. 'Description' reprinted by permission of Louisiana State University Press from Flora of Louisiana: Watercolor Drawings by Margaret Stones with Botanical Descriptions by Lowell Urbatsch. Copyright 1991 by Louisiana State University Press.</accessCondition>
+   <note type="preferred citation" displayLabel="Cite As">Native Flora of Louisiana: Watercolor Drawings by Margaret Stones, Louisiana Digital Library, Baton Rouge, La.</note>
+   <identifier type="local" displayLabel="Object File Name">ms000217</identifier>
+   <identifier displayLabel="Migrated From" invalid="yes" type="uri">http://cdm16313.contentdm.oclc.org/cdm/singleitem/collection/MSW/id/228</identifier>
+   <recordInfo>
+      <recordOrigin>Transformed into MODS from extended Dublin Core by the LDL Development Team at Louisiana State University.</recordOrigin>
+      <recordCreationDate>2006-10-28</recordCreationDate>
+      <recordChangeDate>2017-02-02</recordChangeDate>
+  </recordInfo>
+   <extension>
+      <fileSize>19.3 MB</fileSize>
+      <digitizedBy>KAS</digitizedBy>
+      <imageManipulation>Contrast and brightness adjusted to match original.</imageManipulation>
+      <colorMode>Color RGB</colorMode>
+      <cataloger>kas</cataloger>
+      <hardwareSoftware>: Imagery digitally captured with Sinar 4 in. by 5 in. Large Format Camera with a PhaseOne 4 in. by 5 in.  Digital Studio Camera System Back. Software used includes PhaseOne capturing software and Adobe Photoshop.</hardwareSoftware>
+      <CONTENTdmData>
+         <alias>MSW</alias>
+         <pointer>228</pointer>
+         <dmGetItemInfo mimetype="application/json"
+                        source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/MSW/228/json"
+                        timestamp="2017-02-02 15:27:15">{"title":"Narrow-Leaved White Violet","scient":"Viola lanceolata L. ssp. Vittata (Greene) Russell","family":"Violet Family","famila":"VIOLACEAE","habita":{},"relate":{},"creato":"Stones, Margaret","date":"April 26, 1982","coverb":"1976-1989","publis":"Louisiana State University (Baton Rouge, La.). Libraries","covera":"St. Tammany Parish","contri":"Givens, Florence M.","descri":"\"The narrow-leaved white violet (left) is one of the two white-flowered species that commonly grows in Louisiana.  It is a so-called stemless type, which means it has short, underground stems.  Its leaves form a rosette, and the first ones to appear in the spring are much shorter and wider than the narrowly lanceolate ones that appear later.  The plant's solitary, nodding buds are supported on long stalks.  Upon opening, the flowers, like those of other violets, are bilaterally symmetrical with five sepals and petals.  The intricate veins on the lower half of the spurred petal are purple, while the upper half of this petal and the other four petals are white, sometimes with faintly colored veins.  Narrow-leaved white violet is distributed throughout eastern North America.  The species usually grows in moist, sunny locations in wet pine savannas and along ditches and woodland borders.  Although the violet family in North America essentially consists of the genus Viola, it contains several species of tropical shrubs belonging to several different genera.\"--Lowell Urbatsch, in the Flora of Louisiana (Baton Rouge, LSU Press, 1991), p. 208","notes":"Viola lanceolata ssp. Vittata (Narrow-Leaved White Violet) on left and viola primulifolia (White Violet) on right.\nCommon name as appears on drawing is Lance-Leaved Violet.","langua":"en","drawin":"watercolor drawing","physic":"Approx. 57 x 38 cm","format":"JPEG2000","source":"Louisiana State University Libraries, Special Collections ( http:\/\/www.lib.lsu.edu\/special )","catlog":"kas","rights":"Image copyright Louisiana State University. 'Description' reprinted by permission of Louisiana State University Press from Flora of Louisiana: Watercolor Drawings by Margaret Stones with Botanical Descriptions by Lowell Urbatsch. Copyright 1991 by Louisiana State University Press.","cite":"Native Flora of Louisiana: Watercolor Drawings by Margaret Stones, LOUISiana Digital Library, Baton Rouge, La.","catalo":"2006-10-28","image":"600 dpi","imaga":"8-bit","color":"Color RGB","extent":{},"imagb":"Contrast and brightness adjusted to match original.","file":"19.3 MB","hardwa":": Imagery digitally captured with Sinar 4 in. by 5 in. Large Format Camera with a PhaseOne 4 in. by 5 in.  Digital Studio Camera System Back. Software used includes PhaseOne capturing software and Adobe Photoshop.","digiti":"KAS","digita":"2006-10-07","to":"E-mail lsudiglib@lsu.edu with questions or comments. See instructions for ordering reprints of this item here: http:\/\/www.lib.lsu.edu\/special\/services\/duplication.html Mention the \"Item number\" or \"Item URL\" in your request. ","identi":"See 'reference url' on the navigational bars.","object":"ms000217","collec":"http:\/\/louisdl.louislibraries.org\/cdm4\/index_MSW.php?CISOROOT=\/MSW","type":"Image","fullrs":{},"find":"228.jp2","dmaccess":{},"dmimage":{},"dmcreated":"2006-10-28","dmmodified":"2006-10-28","dmoclcno":{},"dmrecord":"228","restrictionCode":"1","cdmfilesize":"2054759","cdmfilesizeformatted":"1.96 MB","cdmprintpdf":"0","cdmhasocr":"0","cdmisnewspaper":"0"}</dmGetItemInfo>
+      </CONTENTdmData>
+      <imageBitDepth>8-bit</imageBitDepth>
+      <imageResolution>600 dpi</imageResolution>
+  </extension>
+</mods>

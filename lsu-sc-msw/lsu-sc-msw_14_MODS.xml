@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:mods="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/mods/v3">
+   <titleInfo usage="primary" displayLabel="Common Name">
+      <title>Bigleaf Magnolia</title>
+  </titleInfo>
+   <titleInfo displayLabel="Scientific Name (Species)">
+      <subTitle>Magnolia macrophylla</subTitle>
+  </titleInfo>
+   <name displayLabel="Collector">
+      <role>
+         <roleTerm type="text" authority="marcrelator">Collector</roleTerm>
+         <roleTerm type="code" authority="marcrelator">col</roleTerm>
+      </role>
+      <namePart>Smith, Emory</namePart>
+   </name>
+   <name displayLabel="Artist">
+      <namePart>Stones, Margaret</namePart>
+      <role>
+         <roleTerm type="code" authority="marcrelator">art</roleTerm>
+         <roleTerm type="text" authority="marcrelator">Artist</roleTerm>
+      </role>
+   </name>
+   <originInfo>
+      <dateCreated keyDate="yes" point="start">1976</dateCreated>
+      <publisher>Louisiana State University (Baton Rouge, La.). Libraries</publisher>
+      <dateCreated point="end">1989</dateCreated>
+  </originInfo>
+   <subject displayLabel="Place Collected">
+      <geographic>East Baton Rouge Parish</geographic>
+   </subject>
+   <abstract displayLabel="Description">"Bigleaf magnolia, an uncommon tree of the moist, rich woods of certain stream drainage systems in central and southeastern Louisiana, is spectacular in having leaves as long as three feet supported in umbrella-like clusters at the branch tips. Its deciduous leaves are distinctive not only in size but also by their auriculately lobed bases and silvery undersides. Creamy white flowers one foot long open in late spring and would hold the undisputed title of our largest native flower, if there were such a designation. Typical conelike magnolia fruits develop from the numerous pistils of the flower and mature in the fall. Although they may attain heights of about seventy feet and trunk diameters of approximately two fee, most individuals typically remain much smaller trees. Bigleaf magnolia grows in the understory on rich but well-drained soils of riparian and slope forests of the southeaster United States. This species is not widely adaptable in cultivation, preferring conditions similar to those found in nature." -- Lowell Urbatsch, in the Flora of Louisiana (Baton Rouge, LSU Press, 1991), p. 128</abstract>
+   <note type="content" displayLabel="Family Name (Latin)">Magnoliaceae</note>
+   <note type="content" displayLabel="Family Name (English)">Magnolia</note>
+   <note type="content" displayLabel="Date(s) Collected">May 1, 1978</note>
+   <typeOfResource>still image</typeOfResource>
+   <physicalDescription>
+      <note type="medium">watercolor drawing</note>
+      <internetMediaType>jp2</internetMediaType>
+      <extent>Approx. 38 x 57 cm</extent>
+  </physicalDescription>
+   <language>
+      <languageTerm type="code">en</languageTerm>
+  </language>
+   <note type="ownership" displayLabel="Source">Louisiana State University Libraries, Special Collections ( http://www.lib.lsu.edu/special )</note>
+   <relatedItem type="host">
+      <location>
+         <url displayLabel="Relation">http://lsu.louisianadigitallibrary.org/lsu-msw%3Acollection</url>
+      </location>
+      <titleInfo displayLabel="Digital Collection">
+         <title>Native Flora of Louisiana - Watercolor drawings by Margaret Stones</title>
+      </titleInfo>
+  </relatedItem>
+   <location>
+      <physicalLocation authority="oclcorg" displayLabel="OCLC Member Symbol">LUU</physicalLocation>
+      <physicalLocation displayLabel="Physical Location">Louisiana State University: LSU Libraries</physicalLocation>
+      <url displayLabel="Institution Web Site">http://lib.lsu.edu</url>
+      <holdingSimple>
+         <copyInformation>
+            <subLocation>Hill Memorial Library: Special Collections</subLocation>
+         </copyInformation>
+      </holdingSimple>
+   </location>
+   <accessCondition type="use and reproduction" displayLabel="Contact Information">E-mail lsudiglib@lsu.edu with questions or comments. See instructions for ordering reprints of this item here: http://www.lib.lsu.edu/special/services/duplication.html Mention the "Item number" or "Item URL" in your request. </accessCondition>
+   <accessCondition type="restriction on access" displayLabel="Rights">Image copyright Louisiana State University. 'Description' reprinted by permission of Louisiana State University Press from Flora of Louisiana: Watercolor Drawings by Margaret Stones with Botanical Descriptions by Lowell Urbatsch. Copyright 1991 by Louisiana State University Press.</accessCondition>
+   <note type="preferred citation" displayLabel="Cite As">Native Flora of Louisiana: Watercolor Drawings by Margaret Stones, Louisiana Digital Library, Baton Rouge, La.</note>
+   <identifier type="local" displayLabel="Object File Name">ms000123</identifier>
+   <identifier displayLabel="Migrated From" invalid="yes" type="uri">http://cdm16313.contentdm.oclc.org/cdm/singleitem/collection/MSW/id/279</identifier>
+   <recordInfo>
+      <recordOrigin>Transformed into MODS from extended Dublin Core by the LDL Development Team at Louisiana State University.</recordOrigin>
+      <recordCreationDate>2008-02-07</recordCreationDate>
+      <recordChangeDate>2017-02-02</recordChangeDate>
+  </recordInfo>
+   <extension>
+      <cataloger>Gina Costello</cataloger>
+      <CONTENTdmData>
+         <alias>MSW</alias>
+         <pointer>279</pointer>
+         <dmGetItemInfo mimetype="application/json"
+                        source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/MSW/279/json"
+                        timestamp="2017-02-02 15:27:18">{"title":"Bigleaf Magnolia","scient":"Magnolia macrophylla","family":"Magnolia","famila":"Magnoliaceae","habita":{},"relate":{},"creato":"Stones, Margaret 1936-","date":"May 1, 1978","coverb":{},"publis":"Louisiana State University (Baton Rouge, La.). Libraries","covera":"East Baton Rouge Parish","contri":"Smith, Emory","descri":"\"Bigleaf magnolia, an uncommon tree of the moist, rich woods of certain stream drainage systems in central and southeastern Louisiana, is spectacular in having leaves as long as three feet supported in umbrella-like clusters at the branch tips. Its deciduous leaves are distinctive not only in size but also by their auriculately lobed bases and silvery undersides. Creamy white flowers one foot long open in late spring and would hold the undisputed title of our largest native flower, if there were such a designation. Typical conelike magnolia fruits develop from the numerous pistils of the flower and mature in the fall. Although they may attain heights of about seventy feet and trunk diameters of approximately two fee, most individuals typically remain much smaller trees. Bigleaf magnolia grows in the understory on rich but well-drained soils of riparian and slope forests of the southeaster United States. This species is not widely adaptable in cultivation, preferring conditions similar to those found in nature.\" -- Lowell Urbatsch, in the Flora of Louisiana (Baton Rouge, LSU Press, 1991), p. 128","notes":{},"langua":"en","drawin":"watercolor drawing","physic":"Approx. 38 x 57 cm","format":"JPEG2000","source":"Louisiana State University Libraries, Special Collections (http:\/\/www.lib.lsu.edu\/special)","catlog":"Gina Costello","rights":"Image copyright Louisiana State University. 'Description' reprinted by permission of Louisiana State University Press from Flora of Louisiana: Watercolor Drawings by Margaret Stones with Botanical Descriptions by Lowell Urbatsch. Copyright 1991 by Louisiana State University Press.","cite":"Native Flora of Louisiana: Watercolor Drawings by Margaret Stones, LOUISiana Digital Library, Baton Rouge, La.","catalo":"2008-02-07","image":{},"imaga":{},"color":{},"extent":{},"imagb":{},"file":{},"hardwa":{},"digiti":"Krause, Kate","digita":{},"to":"E-mail lsudiglib@lsu.edu with questions or comments. See instructions for ordering reprints of this item here: http:\/\/www.lib.lsu.edu\/special\/services\/duplication.html Mention the \"Item number\" or \"Item URL\" in your request. ","identi":"See 'reference url' on the navigational bars.","object":"ms000123","collec":"http:\/\/louisdl.louislibraries.org\/cdm4\/index_MSW.php?CISOROOT=\/MSW","type":"Image","fullrs":{},"find":"279.cpd","dmaccess":{},"dmimage":{},"dmcreated":"2008-02-07","dmmodified":"2008-02-07","dmoclcno":{},"dmrecord":"279","restrictionCode":"1","cdmfilesize":"543","cdmfilesizeformatted":"0.00 MB","cdmprintpdf":"0","cdmhasocr":"0","cdmisnewspaper":"0"}</dmGetItemInfo>
+      </CONTENTdmData>
+      <digitizedBy>Krause, Kate</digitizedBy>
+  </extension>
+</mods>

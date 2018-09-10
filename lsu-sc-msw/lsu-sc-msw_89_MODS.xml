@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:mods="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/mods/v3">
+   <titleInfo usage="primary" displayLabel="Common Name">
+      <title>Jack-in-the-Pulpit</title>
+  </titleInfo>
+   <titleInfo displayLabel="Scientific Name (Species)">
+      <subTitle>Arisaema quintatum (Nutt.) Schott  [Arisaema triphyllum. (L.) Schott ssp. quinatum (Nutt.) Huttleston]</subTitle>
+  </titleInfo>
+   <name displayLabel="Collector">
+      <role>
+         <roleTerm type="text" authority="marcrelator">Collector</roleTerm>
+         <roleTerm type="code" authority="marcrelator">col</roleTerm>
+      </role>
+      <namePart>Givens, Florence M.</namePart>
+   </name>
+   <name displayLabel="Artist">
+      <namePart>Stones, Margaret</namePart>
+      <role>
+         <roleTerm type="code" authority="marcrelator">art</roleTerm>
+         <roleTerm type="text" authority="marcrelator">Artist</roleTerm>
+      </role>
+   </name>
+   <originInfo>
+      <dateCreated keyDate="yes" point="start">1976</dateCreated>
+      <publisher>Louisiana State University (Baton Rouge, La.). Libraries</publisher>
+      <dateCaptured>2006-02-15</dateCaptured>
+      <dateCreated point="end">1989</dateCreated>
+  </originInfo>
+   <subject displayLabel="Place Collected">
+      <geographic>East Baton Rouge Parish</geographic>
+   </subject>
+   <subject displayLabel="Time Period">
+      <temporal>1976-1989</temporal>
+   </subject>
+   <abstract displayLabel="Description">"Found throughout eastern North America, the jack-in-the-pulpit is probably one of the most widely recognized wildflowers. In this coastal species, the spathe is green and the primary leaf is divided into five leaflets. In the more northerly jack-in-the-pulpit, A. triphyluum, the spathe is purple and the primary leaf if composed of three leaflets. Scarlet clusters of fruit, along with the withered leaves of the native American species, are commonly found on the forest floor in autumn. The underground corm, when properly prepared, may be eaten; raw corms, however, contain calcium oxalate crystals that cause an intense burning sensation in the mouth and throat. Jack-in-the-pulpit is an excellent plant for a natural shade garden provided the soil is rich and constantly moist."  -- Lowell Urbatsch, in The Flora of Louisiana (Baton Rouge: LSU Press, 1991), p.5</abstract>
+   <note type="content" displayLabel="Family Name (Latin)">ARACEAE</note>
+   <note type="content" displayLabel="Family Name (English)">Arum Family</note>
+   <note type="content" displayLabel="Date(s) Collected">March 31, 1982 (flowers); August 30, 1982 (fruit)</note>
+   <note type="content">Scientific name as appears on drawing is Arisaema triphyllum.</note>
+   <typeOfResource>still image</typeOfResource>
+   <physicalDescription>
+      <note type="medium">watercolor drawing</note>
+      <internetMediaType>jp2</internetMediaType>
+      <extent>Approx. 57 x 38 cm</extent>
+  </physicalDescription>
+   <language>
+      <languageTerm type="code">en</languageTerm>
+  </language>
+   <note type="ownership" displayLabel="Source">Louisiana State University Libraries, Special Collections ( http://www.lib.lsu.edu/special )</note>
+   <relatedItem type="host">
+      <location>
+         <url displayLabel="Relation">http://lsu.louisianadigitallibrary.org/lsu-msw%3Acollection</url>
+      </location>
+      <titleInfo displayLabel="Digital Collection">
+         <title>Native Flora of Louisiana - Watercolor drawings by Margaret Stones</title>
+      </titleInfo>
+  </relatedItem>
+   <location>
+      <physicalLocation authority="oclcorg" displayLabel="OCLC Member Symbol">LUU</physicalLocation>
+      <physicalLocation displayLabel="Physical Location">Louisiana State University: LSU Libraries</physicalLocation>
+      <url displayLabel="Institution Web Site">http://lib.lsu.edu</url>
+      <holdingSimple>
+         <copyInformation>
+            <subLocation>Hill Memorial Library: Special Collections</subLocation>
+         </copyInformation>
+      </holdingSimple>
+   </location>
+   <accessCondition type="use and reproduction" displayLabel="Contact Information">E-mail lsudiglib@lsu.edu with questions or comments. See instructions for ordering reprints of this item here: http://www.lib.lsu.edu/special/services/duplication.html Mention the "Item number" or "Item URL" in your request. </accessCondition>
+   <accessCondition type="restriction on access" displayLabel="Rights">Image copyright Louisiana State University. 'Description' reprinted by permission of Louisiana State University Press from Flora of Louisiana: Watercolor Drawings by Margaret Stones with Botanical Descriptions by Lowell Urbatsch. Copyright 1991 by Louisiana State University Press.</accessCondition>
+   <note type="preferred citation" displayLabel="Cite As">Native Flora of Louisiana: Watercolor Drawings by Margaret Stones, Louisiana Digital Library, Baton Rouge, La.</note>
+   <identifier type="local" displayLabel="Object File Name">ms000012</identifier>
+   <identifier displayLabel="Migrated From" invalid="yes" type="uri">http://cdm16313.contentdm.oclc.org/cdm/singleitem/collection/MSW/id/107</identifier>
+   <recordInfo>
+      <recordOrigin>Transformed into MODS from extended Dublin Core by the LDL Development Team at Louisiana State University.</recordOrigin>
+      <recordCreationDate>2006-08-01</recordCreationDate>
+      <recordChangeDate>2017-02-02</recordChangeDate>
+  </recordInfo>
+   <extension>
+      <fileSize>21.3 MB</fileSize>
+      <digitizedBy>ANH</digitizedBy>
+      <imageManipulation>Contrast and brightness adjusted to match original.</imageManipulation>
+      <colorMode>Color RGB</colorMode>
+      <cataloger>clg</cataloger>
+      <hardwareSoftware>: Imagery digitally captured with Sinar 4 in. by 5 in. Large Format Camera with a PhaseOne 4 in. by 5 in.  Digital Studio Camera System Back. Software used includes PhaseOne capturing software and Adobe Photoshop.</hardwareSoftware>
+      <CONTENTdmData>
+         <alias>MSW</alias>
+         <pointer>107</pointer>
+         <dmGetItemInfo mimetype="application/json"
+                        source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/MSW/107/json"
+                        timestamp="2017-02-02 15:27:16">{"title":"Jack-in-the-Pulpit","scient":"Arisaema quintatum (Nutt.) Schott  [Arisaema triphyllum. (L.) Schott ssp. quinatum (Nutt.) Huttleston]","family":"Arum Family","famila":"ARACEAE","habita":{},"relate":{},"creato":"Stones, Margaret","date":"March 31, 1982 (flowers); August 30, 1982 (fruit)","coverb":"1976-1989","publis":"Louisiana State University (Baton Rouge, La.). Libraries","covera":"East Baton Rouge Parish","contri":"Givens, Florence M.","descri":"\"Found throughout eastern North America, the jack-in-the-pulpit is probably one of the most widely recognized wildflowers. In this coastal species, the spathe is green and the primary leaf is divided into five leaflets. In the more northerly jack-in-the-pulpit, A. triphyluum, the spathe is purple and the primary leaf if composed of three leaflets. Scarlet clusters of fruit, along with the withered leaves of the native American species, are commonly found on the forest floor in autumn. The underground corm, when properly prepared, may be eaten; raw corms, however, contain calcium oxalate crystals that cause an intense burning sensation in the mouth and throat. Jack-in-the-pulpit is an excellent plant for a natural shade garden provided the soil is rich and constantly moist.\"  -- Lowell Urbatsch, in The Flora of Louisiana (Baton Rouge: LSU Press, 1991), p.5","notes":"Scientific name as appears on drawing is Arisaema triphyllum.","langua":"en","drawin":"watercolor drawing","physic":"Approx. 57 x 38 cm","format":"JPEG2000","source":"Louisiana State University Libraries, Special Collections ( http:\/\/www.lib.lsu.edu\/special )","catlog":"clg","rights":"Image copyright Louisiana State University. 'Description' reprinted by permission of Louisiana State University Press from Flora of Louisiana: Watercolor Drawings by Margaret Stones with Botanical Descriptions by Lowell Urbatsch. Copyright 1991 by Louisiana State University Press.","cite":"Native Flora of Louisiana: Watercolor Drawings by Margaret Stones, LOUISiana Digital Library, Baton Rouge, La.","catalo":"2006-05-02","image":"600 dpi","imaga":"8-bit","color":"Color RGB","extent":{},"imagb":"Contrast and brightness adjusted to match original.","file":"21.3 MB","hardwa":": Imagery digitally captured with Sinar 4 in. by 5 in. Large Format Camera with a PhaseOne 4 in. by 5 in.  Digital Studio Camera System Back. Software used includes PhaseOne capturing software and Adobe Photoshop.","digiti":"ANH","digita":"2006-02-15","to":"E-mail lsudiglib@lsu.edu with questions or comments. See instructions for ordering reprints of this item here: http:\/\/www.lib.lsu.edu\/special\/services\/duplication.html Mention the \"Item number\" or \"Item URL\" in your request. ","identi":"See 'reference url' on the navigational bars.","object":"ms000012","collec":"http:\/\/louisdl.louislibraries.org\/cdm4\/index_MSW.php?CISOROOT=\/MSW","type":"Image","fullrs":{},"find":"107.jp2","dmaccess":{},"dmimage":{},"dmcreated":"2006-08-01","dmmodified":"2006-08-01","dmoclcno":{},"dmrecord":"107","restrictionCode":"1","cdmfilesize":"2274188","cdmfilesizeformatted":"2.17 MB","cdmprintpdf":"0","cdmhasocr":"0","cdmisnewspaper":"0"}</dmGetItemInfo>
+      </CONTENTdmData>
+      <imageBitDepth>8-bit</imageBitDepth>
+      <imageResolution>600 dpi</imageResolution>
+  </extension>
+</mods>

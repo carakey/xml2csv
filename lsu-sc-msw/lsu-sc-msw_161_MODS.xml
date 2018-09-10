@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:mods="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/mods/v3">
+   <titleInfo usage="primary" displayLabel="Common Name">
+      <title>Sassafras</title>
+  </titleInfo>
+   <titleInfo displayLabel="Scientific Name (Species)">
+      <subTitle>Sassafras albidum (Nutt.) Nees</subTitle>
+  </titleInfo>
+   <name displayLabel="Collector">
+      <role>
+         <roleTerm type="text" authority="marcrelator">Collector</roleTerm>
+         <roleTerm type="code" authority="marcrelator">col</roleTerm>
+      </role>
+      <namePart>Thomas, R. Dale</namePart>
+   </name>
+   <name displayLabel="Collector">
+      <role>
+         <roleTerm type="text" authority="marcrelator">Collector</roleTerm>
+         <roleTerm type="code" authority="marcrelator">col</roleTerm>
+      </role>
+      <namePart>Urbatsch Lowell E. (flowers, leaves)</namePart>
+   </name>
+   <name displayLabel="Collector">
+      <role>
+         <roleTerm type="text" authority="marcrelator">Collector</roleTerm>
+         <roleTerm type="code" authority="marcrelator">col</roleTerm>
+      </role>
+      <namePart>Robbins, Jim (fruit)</namePart>
+   </name>
+   <name displayLabel="Artist">
+      <namePart>Stones, Margaret</namePart>
+      <role>
+         <roleTerm type="code" authority="marcrelator">art</roleTerm>
+         <roleTerm type="text" authority="marcrelator">Artist</roleTerm>
+      </role>
+   </name>
+   <originInfo>
+      <dateCreated keyDate="yes" point="start">1976</dateCreated>
+      <publisher>Louisiana State University (Baton Rouge, La.). Libraries</publisher>
+      <dateCaptured>2006-09-16</dateCaptured>
+      <dateCreated point="end">1989</dateCreated>
+  </originInfo>
+   <subject displayLabel="Place Collected">
+      <geographic>Lincoln Parish (flowers)</geographic>
+   </subject>
+   <subject displayLabel="Place Collected">
+      <geographic>Bossier Parish (fruit)</geographic>
+   </subject>
+   <subject displayLabel="Place Collected">
+      <geographic>East Baton Rouge Parish (leaves)</geographic>
+   </subject>
+   <subject displayLabel="Time Period">
+      <temporal>1976-1989</temporal>
+   </subject>
+   <abstract displayLabel="Description">"Sassafras occupies a prominent position among our native culinary plants.  Filé, a fine powder of ground sassafras leaves, imparts a distinctive flavor to gumbo, a popular South Louisiana dish.  Sassafras tea, made by steeping pieces of the root or bark, has been a popular drink since the early colonization of this country.  Sassafras oil, distilled from the bark of the roots, is used to flavor medicines and candy and in scenting some perfumes.  Unfortunately, safrole, one major component of sassafras oil, has been shown to be mildly carcinogenic in laboratory animals.  Sassfras is a deciduous, dioecious tree common in old fields and woodlands of Louisiana and the eastern United States.  Leaves, especially of young trees, are mitten-shaped, and both right- and left-handed "mittens" as well as ones with two thumbs, are produced.  Leaves of older trees--which incidentally can become one hundred feet tall with trunk diameters of three to four feet--tend to be unlobed.  Both the male and the female flowers are small, yellowish green, and radially symmetrical with six perianth segments.  Male flowers have nine stamens and release their pollen by means of tiny, flaplike doors, a feature characteristic of the laurel family.  Sassafras fruits are purple drupes supported by a fleshy, enlarged, reddish petiole."--Lowell Urbatsch, in the Flora of Louisiana (Baton Rouge, LSU Press, 1991), p.108</abstract>
+   <note type="content" displayLabel="Family Name (Latin)">LAURACEAE</note>
+   <note type="content" displayLabel="Family Name (English)">Laurel Family</note>
+   <note type="content" displayLabel="Date(s) Collected">March 13, 1982 (flowers); July 19, 1985 (fruit); May 25, 1982 (leaves)</note>
+   <typeOfResource>still image</typeOfResource>
+   <physicalDescription>
+      <note type="medium">watercolor drawing</note>
+      <internetMediaType>jp2</internetMediaType>
+      <extent>Approx. 57 x 38 cm</extent>
+  </physicalDescription>
+   <language>
+      <languageTerm type="code">en</languageTerm>
+  </language>
+   <note type="ownership" displayLabel="Source">Louisiana State University Libraries, Special Collections ( http://www.lib.lsu.edu/special )</note>
+   <relatedItem type="host">
+      <location>
+         <url displayLabel="Relation">http://lsu.louisianadigitallibrary.org/lsu-msw%3Acollection</url>
+      </location>
+      <titleInfo displayLabel="Digital Collection">
+         <title>Native Flora of Louisiana - Watercolor drawings by Margaret Stones</title>
+      </titleInfo>
+  </relatedItem>
+   <location>
+      <physicalLocation authority="oclcorg" displayLabel="OCLC Member Symbol">LUU</physicalLocation>
+      <physicalLocation displayLabel="Physical Location">Louisiana State University: LSU Libraries</physicalLocation>
+      <url displayLabel="Institution Web Site">http://lib.lsu.edu</url>
+      <holdingSimple>
+         <copyInformation>
+            <subLocation>Hill Memorial Library: Special Collections</subLocation>
+         </copyInformation>
+      </holdingSimple>
+   </location>
+   <accessCondition type="use and reproduction" displayLabel="Contact Information">E-mail lsudiglib@lsu.edu with questions or comments. See instructions for ordering reprints of this item here: http://www.lib.lsu.edu/special/services/duplication.html Mention the "Item number" or "Item URL" in your request. </accessCondition>
+   <accessCondition type="restriction on access" displayLabel="Rights">Image copyright Louisiana State University. 'Description' reprinted by permission of Louisiana State University Press from Flora of Louisiana: Watercolor Drawings by Margaret Stones with Botanical Descriptions by Lowell Urbatsch. Copyright 1991 by Louisiana State University Press.</accessCondition>
+   <note type="preferred citation" displayLabel="Cite As">Native Flora of Louisiana: Watercolor Drawings by Margaret Stones, Louisiana Digital Library, Baton Rouge, La.</note>
+   <identifier type="local" displayLabel="Object File Name">ms000187</identifier>
+   <identifier displayLabel="Migrated From" invalid="yes" type="uri">http://cdm16313.contentdm.oclc.org/cdm/singleitem/collection/MSW/id/195</identifier>
+   <recordInfo>
+      <recordOrigin>Transformed into MODS from extended Dublin Core by the LDL Development Team at Louisiana State University.</recordOrigin>
+      <recordCreationDate>2006-10-24</recordCreationDate>
+      <recordChangeDate>2017-02-02</recordChangeDate>
+  </recordInfo>
+   <extension>
+      <fileSize>19.2 MB</fileSize>
+      <digitizedBy>KAS</digitizedBy>
+      <imageManipulation>Contrast and brightness adjusted to match original.</imageManipulation>
+      <colorMode>Color RGB</colorMode>
+      <cataloger>kas</cataloger>
+      <hardwareSoftware>: Imagery digitally captured with Sinar 4 in. by 5 in. Large Format Camera with a PhaseOne 4 in. by 5 in.  Digital Studio Camera System Back. Software used includes PhaseOne capturing software and Adobe Photoshop.</hardwareSoftware>
+      <CONTENTdmData>
+         <alias>MSW</alias>
+         <pointer>195</pointer>
+         <dmGetItemInfo mimetype="application/json"
+                        source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/MSW/195/json"
+                        timestamp="2017-02-02 15:27:16">{"title":"Sassafras","scient":"Sassafras albidum (Nutt.) Nees","family":"Laurel Family","famila":"LAURACEAE","habita":{},"relate":{},"creato":"Stones, Margaret","date":"March 13, 1982 (flowers); July 19, 1985 (fruit); May 25, 1982 (leaves)","coverb":"1976-1989","publis":"Louisiana State University (Baton Rouge, La.). Libraries","covera":"Lincoln Parish (flowers); Bossier Parish (fruit); East Baton Rouge Parish (leaves)","contri":"Thomas, R. Dale; Urbatsch Lowell E. (flowers, leaves); Robbins, Jim (fruit)","descri":"\"Sassafras occupies a prominent position among our native culinary plants.  Fil\u00e9, a fine powder of ground sassafras leaves, imparts a distinctive flavor to gumbo, a popular South Louisiana dish.  Sassafras tea, made by steeping pieces of the root or bark, has been a popular drink since the early colonization of this country.  Sassafras oil, distilled from the bark of the roots, is used to flavor medicines and candy and in scenting some perfumes.  Unfortunately, safrole, one major component of sassafras oil, has been shown to be mildly carcinogenic in laboratory animals.  Sassfras is a deciduous, dioecious tree common in old fields and woodlands of Louisiana and the eastern United States.  Leaves, especially of young trees, are mitten-shaped, and both right- and left-handed \"mittens\" as well as ones with two thumbs, are produced.  Leaves of older trees--which incidentally can become one hundred feet tall with trunk diameters of three to four feet--tend to be unlobed.  Both the male and the female flowers are small, yellowish green, and radially symmetrical with six perianth segments.  Male flowers have nine stamens and release their pollen by means of tiny, flaplike doors, a feature characteristic of the laurel family.  Sassafras fruits are purple drupes supported by a fleshy, enlarged, reddish petiole.\"--Lowell Urbatsch, in the Flora of Louisiana (Baton Rouge, LSU Press, 1991), p.108","notes":{},"langua":"en","drawin":"watercolor drawing","physic":"Approx. 57 x 38 cm","format":"JPEG2000","source":"Louisiana State University Libraries, Special Collections ( http:\/\/www.lib.lsu.edu\/special )","catlog":"kas","rights":"Image copyright Louisiana State University. 'Description' reprinted by permission of Louisiana State University Press from Flora of Louisiana: Watercolor Drawings by Margaret Stones with Botanical Descriptions by Lowell Urbatsch. Copyright 1991 by Louisiana State University Press.","cite":"Native Flora of Louisiana: Watercolor Drawings by Margaret Stones, LOUISiana Digital Library, Baton Rouge, La.","catalo":"2006-10-24","image":"600 dpi","imaga":"8-bit","color":"Color RGB","extent":{},"imagb":"Contrast and brightness adjusted to match original.","file":"19.2 MB","hardwa":": Imagery digitally captured with Sinar 4 in. by 5 in. Large Format Camera with a PhaseOne 4 in. by 5 in.  Digital Studio Camera System Back. Software used includes PhaseOne capturing software and Adobe Photoshop.","digiti":"KAS","digita":"2006-09-16","to":"E-mail lsudiglib@lsu.edu with questions or comments. See instructions for ordering reprints of this item here: http:\/\/www.lib.lsu.edu\/special\/services\/duplication.html Mention the \"Item number\" or \"Item URL\" in your request. ","identi":"See 'reference url' on the navigational bars.","object":"ms000187","collec":"http:\/\/louisdl.louislibraries.org\/cdm4\/index_MSW.php?CISOROOT=\/MSW","type":"Image","fullrs":{},"find":"195.jp2","dmaccess":{},"dmimage":{},"dmcreated":"2006-10-24","dmmodified":"2006-10-24","dmoclcno":{},"dmrecord":"195","restrictionCode":"1","cdmfilesize":"2044243","cdmfilesizeformatted":"1.95 MB","cdmprintpdf":"0","cdmhasocr":"0","cdmisnewspaper":"0"}</dmGetItemInfo>
+      </CONTENTdmData>
+      <imageBitDepth>8-bit</imageBitDepth>
+      <imageResolution>600 dpi</imageResolution>
+  </extension>
+</mods>

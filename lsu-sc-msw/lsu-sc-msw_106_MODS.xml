@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:mods="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/mods/v3">
+   <titleInfo usage="primary" displayLabel="Common Name">
+      <title>Mayapple</title>
+  </titleInfo>
+   <titleInfo displayLabel="Scientific Name (Species)">
+      <subTitle>Podophyllum peltatum L.</subTitle>
+  </titleInfo>
+   <name displayLabel="Collector">
+      <role>
+         <roleTerm type="text" authority="marcrelator">Collector</roleTerm>
+         <roleTerm type="code" authority="marcrelator">col</roleTerm>
+      </role>
+      <namePart>Barton, Paula (flowers)</namePart>
+   </name>
+   <name displayLabel="Collector">
+      <role>
+         <roleTerm type="text" authority="marcrelator">Collector</roleTerm>
+         <roleTerm type="code" authority="marcrelator">col</roleTerm>
+      </role>
+      <namePart>Odenwald, Neil (fruit)</namePart>
+   </name>
+   <name displayLabel="Artist">
+      <namePart>Stones, Margaret</namePart>
+      <role>
+         <roleTerm type="code" authority="marcrelator">art</roleTerm>
+         <roleTerm type="text" authority="marcrelator">Artist</roleTerm>
+      </role>
+   </name>
+   <originInfo>
+      <dateCreated keyDate="yes" point="start">1976</dateCreated>
+      <publisher>Louisiana State University (Baton Rouge, La.). Libraries</publisher>
+      <dateCaptured>2006-08-09</dateCaptured>
+      <dateCreated point="end">1989</dateCreated>
+  </originInfo>
+   <subject displayLabel="Place Collected">
+      <geographic>East Baton Rouge Parish</geographic>
+   </subject>
+   <subject displayLabel="Time Period">
+      <temporal>1976-1989</temporal>
+   </subject>
+   <abstract displayLabel="Description">"The gregarious colonies of mayapple commonly found on rich, moist woodlands are well known to wildflower enthusiasts.  These unusual plants spread by means of creeping rhizomes.  Each upright stem may grow to a foot or more tall and usually bears two large, peltate, orbicular, three- to nine- parted leaves.  A single flower arises from between the petioles of the two leaves.  Its fugacious perianth consists of six sepals and six to nine large, showy petals that surround the numerous yellow stamens.  The fragrant flower gives way to an ovoid, many-seeded berry that is reported to be edible, though its seeds and its vegetative parts contain poisonous substances.  Mayapple appears early in the spring and flowers and fruits in a short period.  It is easy to cultivate if provided with a moist, shady environment.  Podophyllum, a genus of nearly a dozen species, is mostly Asian; only this one grows in the United States.  Although generally placed in the barberry family, some specialists segregate it into the Podophyllaceae."--Lowell Urbatsch, in the Flora of Louisiana (Baton Rouge, LSU Press, 1991), p. 34</abstract>
+   <note type="content" displayLabel="Family Name (Latin)">BERBERIDACEAE</note>
+   <note type="content" displayLabel="Family Name (English)">Barberry Family</note>
+   <note type="content" displayLabel="Date(s) Collected">July 16, 1978 (flowers and fruit)</note>
+   <note type="content">Collection date for flowers as appears on the drawing is April 5, 1978.</note>
+   <typeOfResource>still image</typeOfResource>
+   <physicalDescription>
+      <note type="medium">watercolor drawing</note>
+      <internetMediaType>jp2</internetMediaType>
+      <extent>Approx. 57 x 38 cm</extent>
+  </physicalDescription>
+   <language>
+      <languageTerm type="code">en</languageTerm>
+  </language>
+   <note type="ownership" displayLabel="Source">Louisiana State University Libraries, Special Collections ( http://www.lib.lsu.edu/special )</note>
+   <relatedItem type="host">
+      <location>
+         <url displayLabel="Relation">http://lsu.louisianadigitallibrary.org/lsu-msw%3Acollection</url>
+      </location>
+      <titleInfo displayLabel="Digital Collection">
+         <title>Native Flora of Louisiana - Watercolor drawings by Margaret Stones</title>
+      </titleInfo>
+  </relatedItem>
+   <location>
+      <physicalLocation authority="oclcorg" displayLabel="OCLC Member Symbol">LUU</physicalLocation>
+      <physicalLocation displayLabel="Physical Location">Louisiana State University: LSU Libraries</physicalLocation>
+      <url displayLabel="Institution Web Site">http://lib.lsu.edu</url>
+      <holdingSimple>
+         <copyInformation>
+            <subLocation>Hill Memorial Library: Special Collections</subLocation>
+         </copyInformation>
+      </holdingSimple>
+   </location>
+   <accessCondition type="use and reproduction" displayLabel="Contact Information">E-mail lsudiglib@lsu.edu with questions or comments. See instructions for ordering reprints of this item here: http://www.lib.lsu.edu/special/services/duplication.html Mention the "Item number" or "Item URL" in your request. </accessCondition>
+   <accessCondition type="restriction on access" displayLabel="Rights">Image copyright Louisiana State University. 'Description' reprinted by permission of Louisiana State University Press from Flora of Louisiana: Watercolor Drawings by Margaret Stones with Botanical Descriptions by Lowell Urbatsch. Copyright 1991 by Louisiana State University Press.</accessCondition>
+   <note type="preferred citation" displayLabel="Cite As">Native Flora of Louisiana: Watercolor Drawings by Margaret Stones, Louisiana Digital Library, Baton Rouge, La.</note>
+   <identifier type="local" displayLabel="Object File Name">ms000158</identifier>
+   <identifier displayLabel="Migrated From" invalid="yes" type="uri">http://cdm16313.contentdm.oclc.org/cdm/singleitem/collection/MSW/id/162</identifier>
+   <recordInfo>
+      <recordOrigin>Transformed into MODS from extended Dublin Core by the LDL Development Team at Louisiana State University.</recordOrigin>
+      <recordCreationDate>2006-10-14</recordCreationDate>
+      <recordChangeDate>2017-02-02</recordChangeDate>
+  </recordInfo>
+   <extension>
+      <fileSize>21.1 MB</fileSize>
+      <digitizedBy>KAS</digitizedBy>
+      <imageManipulation>Contrast and brightness adjusted to match original.</imageManipulation>
+      <colorMode>Color RGB</colorMode>
+      <cataloger>kas</cataloger>
+      <hardwareSoftware>: Imagery digitally captured with Sinar 4 in. by 5 in. Large Format Camera with a PhaseOne 4 in. by 5 in.  Digital Studio Camera System Back. Software used includes PhaseOne capturing software and Adobe Photoshop.</hardwareSoftware>
+      <CONTENTdmData>
+         <alias>MSW</alias>
+         <pointer>162</pointer>
+         <dmGetItemInfo mimetype="application/json"
+                        source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/MSW/162/json"
+                        timestamp="2017-02-02 15:27:17">{"title":"Mayapple","scient":"Podophyllum peltatum L.","family":"Barberry Family","famila":"BERBERIDACEAE","habita":{},"relate":{},"creato":"Stones, Margaret","date":"July 16, 1978 (flowers and fruit)","coverb":"1976-1989","publis":"Louisiana State University (Baton Rouge, La.). Libraries","covera":"East Baton Rouge Parish","contri":"Barton, Paula (flowers); Odenwald, Neil (fruit)","descri":"\"The gregarious colonies of mayapple commonly found on rich, moist woodlands are well known to wildflower enthusiasts.  These unusual plants spread by means of creeping rhizomes.  Each upright stem may grow to a foot or more tall and usually bears two large, peltate, orbicular, three- to nine- parted leaves.  A single flower arises from between the petioles of the two leaves.  Its fugacious perianth consists of six sepals and six to nine large, showy petals that surround the numerous yellow stamens.  The fragrant flower gives way to an ovoid, many-seeded berry that is reported to be edible, though its seeds and its vegetative parts contain poisonous substances.  Mayapple appears early in the spring and flowers and fruits in a short period.  It is easy to cultivate if provided with a moist, shady environment.  Podophyllum, a genus of nearly a dozen species, is mostly Asian; only this one grows in the United States.  Although generally placed in the barberry family, some specialists segregate it into the Podophyllaceae.\"--Lowell Urbatsch, in the Flora of Louisiana (Baton Rouge, LSU Press, 1991), p. 34","notes":"Collection date for flowers as appears on the drawing is April 5, 1978.","langua":"en","drawin":"watercolor drawing","physic":"Approx. 57 x 38 cm","format":"JPEG2000","source":"Louisiana State University Libraries, Special Collections ( http:\/\/www.lib.lsu.edu\/special )","catlog":"kas","rights":"Image copyright Louisiana State University. 'Description' reprinted by permission of Louisiana State University Press from Flora of Louisiana: Watercolor Drawings by Margaret Stones with Botanical Descriptions by Lowell Urbatsch. Copyright 1991 by Louisiana State University Press.","cite":"Native Flora of Louisiana: Watercolor Drawings by Margaret Stones, LOUISiana Digital Library, Baton Rouge, La.","catalo":"2006-10-14","image":"600 dpi","imaga":"8-bit","color":"Color RGB","extent":{},"imagb":"Contrast and brightness adjusted to match original.","file":"21.1 MB","hardwa":": Imagery digitally captured with Sinar 4 in. by 5 in. Large Format Camera with a PhaseOne 4 in. by 5 in.  Digital Studio Camera System Back. Software used includes PhaseOne capturing software and Adobe Photoshop.","digiti":"KAS","digita":"2006-08-09","to":"E-mail lsudiglib@lsu.edu with questions or comments. See instructions for ordering reprints of this item here: http:\/\/www.lib.lsu.edu\/special\/services\/duplication.html Mention the \"Item number\" or \"Item URL\" in your request. ","identi":"See 'reference url' on the navigational bars.","object":"ms000158","collec":"http:\/\/louisdl.louislibraries.org\/cdm4\/index_MSW.php?CISOROOT=\/MSW","type":"Image","fullrs":{},"find":"162.jp2","dmaccess":{},"dmimage":{},"dmcreated":"2006-10-14","dmmodified":"2006-10-14","dmoclcno":{},"dmrecord":"162","restrictionCode":"1","cdmfilesize":"2243124","cdmfilesizeformatted":"2.14 MB","cdmprintpdf":"0","cdmhasocr":"0","cdmisnewspaper":"0"}</dmGetItemInfo>
+      </CONTENTdmData>
+      <imageBitDepth>8-bit</imageBitDepth>
+      <imageResolution>600 dpi</imageResolution>
+  </extension>
+</mods>

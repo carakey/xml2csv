@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:mods="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/mods/v3">
+   <titleInfo usage="primary" displayLabel="Common Name">
+      <title>Blue-Eyed Grass</title>
+  </titleInfo>
+   <titleInfo displayLabel="Scientific Name (Species)">
+      <subTitle>Sisyrinchium atlanticum Bickn.</subTitle>
+  </titleInfo>
+   <name displayLabel="Collector">
+      <role>
+         <roleTerm type="text" authority="marcrelator">Collector</roleTerm>
+         <roleTerm type="code" authority="marcrelator">col</roleTerm>
+      </role>
+      <namePart>Urbatsch, Lowell E.</namePart>
+   </name>
+   <name displayLabel="Artist">
+      <namePart>Stones, Margaret</namePart>
+      <role>
+         <roleTerm type="code" authority="marcrelator">art</roleTerm>
+         <roleTerm type="text" authority="marcrelator">Artist</roleTerm>
+      </role>
+   </name>
+   <originInfo>
+      <dateCreated keyDate="yes" point="start">1976</dateCreated>
+      <publisher>Louisiana State University (Baton Rouge, La.). Libraries</publisher>
+      <dateCaptured>2006-09-16</dateCaptured>
+      <dateCreated point="end">1989</dateCreated>
+  </originInfo>
+   <subject displayLabel="Place Collected">
+      <geographic>West Feliciana Parish</geographic>
+   </subject>
+   <subject displayLabel="Time Period">
+      <temporal>1976-1989</temporal>
+   </subject>
+   <abstract displayLabel="Description">"Growing in many-stemmed clumps in meadows and pastures and along roadsides, blue-eyed grass creates colorful springtime floral vistas.  The ephemeral flowers, usually lasting a day or part of a day, are arranged in umbrella-like clusters and arise from between a pair of bracts called spathes.  The perianth has a yellow center, or eye, and is composed of six petal-like, blue-violet members, each with a small point.  Although several species of Sisyrinchium are indigenous to Louisiana, knowledge of their taxonomy is poor, making the application of correct names difficult.  Some of the species are rather weedy, small annuals with white, yellow, or dingy violet flowers.  Indeed, the name blue-eyed grass is misleading not only because the flower color varies but also because this species is not a grass but a member of the iris family.  This plant's relation to the irises is supported by details of its floral structure: the six perianth members, three stamens, and inferior ovary."--Lowell Urbatsch, in the Flora of Louisiana (Baton Rouge, LSU Press, 1991), p. 100</abstract>
+   <note type="content" displayLabel="Family Name (Latin)">IRIDACEAE</note>
+   <note type="content" displayLabel="Family Name (English)">Iris Family</note>
+   <note type="content" displayLabel="Date(s) Collected">April 17, 1979</note>
+   <typeOfResource>still image</typeOfResource>
+   <physicalDescription>
+      <note type="medium">watercolor drawing</note>
+      <internetMediaType>jp2</internetMediaType>
+      <extent>Approx. 57 x 38 cm</extent>
+  </physicalDescription>
+   <language>
+      <languageTerm type="code">en</languageTerm>
+  </language>
+   <note type="ownership" displayLabel="Source">Louisiana State University Libraries, Special Collections ( http://www.lib.lsu.edu/special )</note>
+   <relatedItem type="host">
+      <location>
+         <url displayLabel="Relation">http://lsu.louisianadigitallibrary.org/lsu-msw%3Acollection</url>
+      </location>
+      <titleInfo displayLabel="Digital Collection">
+         <title>Native Flora of Louisiana - Watercolor drawings by Margaret Stones</title>
+      </titleInfo>
+  </relatedItem>
+   <location>
+      <physicalLocation authority="oclcorg" displayLabel="OCLC Member Symbol">LUU</physicalLocation>
+      <physicalLocation displayLabel="Physical Location">Louisiana State University: LSU Libraries</physicalLocation>
+      <url displayLabel="Institution Web Site">http://lib.lsu.edu</url>
+      <holdingSimple>
+         <copyInformation>
+            <subLocation>Hill Memorial Library: Special Collections</subLocation>
+         </copyInformation>
+      </holdingSimple>
+   </location>
+   <accessCondition type="use and reproduction" displayLabel="Contact Information">E-mail lsudiglib@lsu.edu with questions or comments. See instructions for ordering reprints of this item here: http://www.lib.lsu.edu/special/services/duplication.html Mention the "Item number" or "Item URL" in your request. </accessCondition>
+   <accessCondition type="restriction on access" displayLabel="Rights">Image copyright Louisiana State University. 'Description' reprinted by permission of Louisiana State University Press from Flora of Louisiana: Watercolor Drawings by Margaret Stones with Botanical Descriptions by Lowell Urbatsch. Copyright 1991 by Louisiana State University Press.</accessCondition>
+   <note type="preferred citation" displayLabel="Cite As">Native Flora of Louisiana: Watercolor Drawings by Margaret Stones, Louisiana Digital Library, Baton Rouge, La.</note>
+   <identifier type="local" displayLabel="Object File Name">ms000191</identifier>
+   <identifier displayLabel="Migrated From" invalid="yes" type="uri">http://cdm16313.contentdm.oclc.org/cdm/singleitem/collection/MSW/id/199</identifier>
+   <recordInfo>
+      <recordOrigin>Transformed into MODS from extended Dublin Core by the LDL Development Team at Louisiana State University.</recordOrigin>
+      <recordCreationDate>2006-10-24</recordCreationDate>
+      <recordChangeDate>2017-02-02</recordChangeDate>
+  </recordInfo>
+   <extension>
+      <fileSize>19.1 MB</fileSize>
+      <digitizedBy>KAS</digitizedBy>
+      <imageManipulation>Contrast and brightness adjusted to match original.</imageManipulation>
+      <colorMode>Color RGB</colorMode>
+      <cataloger>kas</cataloger>
+      <hardwareSoftware>: Imagery digitally captured with Sinar 4 in. by 5 in. Large Format Camera with a PhaseOne 4 in. by 5 in.  Digital Studio Camera System Back. Software used includes PhaseOne capturing software and Adobe Photoshop.</hardwareSoftware>
+      <CONTENTdmData>
+         <alias>MSW</alias>
+         <pointer>199</pointer>
+         <dmGetItemInfo mimetype="application/json"
+                        source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/MSW/199/json"
+                        timestamp="2017-02-02 15:27:16">{"title":"Blue-Eyed Grass","scient":"Sisyrinchium atlanticum Bickn.","family":"Iris Family","famila":"IRIDACEAE","habita":{},"relate":{},"creato":"Stones, Margaret","date":"April 17, 1979","coverb":"1976-1989","publis":"Louisiana State University (Baton Rouge, La.). Libraries","covera":"West Feliciana Parish","contri":"Urbatsch, Lowell E.","descri":"\"Growing in many-stemmed clumps in meadows and pastures and along roadsides, blue-eyed grass creates colorful springtime floral vistas.  The ephemeral flowers, usually lasting a day or part of a day, are arranged in umbrella-like clusters and arise from between a pair of bracts called spathes.  The perianth has a yellow center, or eye, and is composed of six petal-like, blue-violet members, each with a small point.  Although several species of Sisyrinchium are indigenous to Louisiana, knowledge of their taxonomy is poor, making the application of correct names difficult.  Some of the species are rather weedy, small annuals with white, yellow, or dingy violet flowers.  Indeed, the name blue-eyed grass is misleading not only because the flower color varies but also because this species is not a grass but a member of the iris family.  This plant's relation to the irises is supported by details of its floral structure: the six perianth members, three stamens, and inferior ovary.\"--Lowell Urbatsch, in the Flora of Louisiana (Baton Rouge, LSU Press, 1991), p. 100","notes":{},"langua":"en","drawin":"watercolor drawing","physic":"Approx. 57 x 38 cm","format":"JPEG2000","source":"Louisiana State University Libraries, Special Collections ( http:\/\/www.lib.lsu.edu\/special )","catlog":"kas","rights":"Image copyright Louisiana State University. 'Description' reprinted by permission of Louisiana State University Press from Flora of Louisiana: Watercolor Drawings by Margaret Stones with Botanical Descriptions by Lowell Urbatsch. Copyright 1991 by Louisiana State University Press.","cite":"Native Flora of Louisiana: Watercolor Drawings by Margaret Stones, LOUISiana Digital Library, Baton Rouge, La.","catalo":"2006-10-24","image":"600 dpi","imaga":"8-bit","color":"Color RGB","extent":{},"imagb":"Contrast and brightness adjusted to match original.","file":"19.1 MB","hardwa":": Imagery digitally captured with Sinar 4 in. by 5 in. Large Format Camera with a PhaseOne 4 in. by 5 in.  Digital Studio Camera System Back. Software used includes PhaseOne capturing software and Adobe Photoshop.","digiti":"KAS","digita":"2006-09-16","to":"E-mail lsudiglib@lsu.edu with questions or comments. See instructions for ordering reprints of this item here: http:\/\/www.lib.lsu.edu\/special\/services\/duplication.html Mention the \"Item number\" or \"Item URL\" in your request. ","identi":"See 'reference url' on the navigational bars.","object":"ms000191","collec":"http:\/\/louisdl.louislibraries.org\/cdm4\/index_MSW.php?CISOROOT=\/MSW","type":"Image","fullrs":{},"find":"199.jp2","dmaccess":{},"dmimage":{},"dmcreated":"2006-10-24","dmmodified":"2006-12-09","dmoclcno":{},"dmrecord":"199","restrictionCode":"1","cdmfilesize":"2036325","cdmfilesizeformatted":"1.94 MB","cdmprintpdf":"0","cdmhasocr":"0","cdmisnewspaper":"0"}</dmGetItemInfo>
+      </CONTENTdmData>
+      <imageBitDepth>8-bit</imageBitDepth>
+      <imageResolution>600 dpi</imageResolution>
+  </extension>
+</mods>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns:mods="http://www.loc.gov/mods/v3"
+      xmlns:xlink="http://www.w3.org/1999/xlink"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/mods/v3">
+   <titleInfo usage="primary" displayLabel="Common Name">
+      <title>Bog Camas</title>
+  </titleInfo>
+   <titleInfo displayLabel="Scientific Name (Species)">
+      <subTitle>Zigadenus leimanthoides Gray</subTitle>
+  </titleInfo>
+   <name displayLabel="Collector">
+      <role>
+         <roleTerm type="text" authority="marcrelator">Collector</roleTerm>
+         <roleTerm type="code" authority="marcrelator">col</roleTerm>
+      </role>
+      <namePart>Givens, Florence M.</namePart>
+   </name>
+   <name displayLabel="Collector">
+      <role>
+         <roleTerm type="text" authority="marcrelator">Collector</roleTerm>
+         <roleTerm type="code" authority="marcrelator">col</roleTerm>
+      </role>
+      <namePart>Lemke, David</namePart>
+   </name>
+   <name displayLabel="Artist">
+      <namePart>Stones, Margaret</namePart>
+      <role>
+         <roleTerm type="code" authority="marcrelator">art</roleTerm>
+         <roleTerm type="text" authority="marcrelator">Artist</roleTerm>
+      </role>
+   </name>
+   <originInfo>
+      <dateCreated keyDate="yes" point="start">1976</dateCreated>
+      <publisher>Louisiana State University (Baton Rouge, La.). Libraries</publisher>
+      <dateCaptured>2006-10-07</dateCaptured>
+      <dateCreated point="end">1989</dateCreated>
+  </originInfo>
+   <subject displayLabel="Place Collected">
+      <geographic>St. Tammany Parish</geographic>
+   </subject>
+   <subject displayLabel="Time Period">
+      <temporal>1976-1989</temporal>
+   </subject>
+   <abstract displayLabel="Description">"Bog camas has a bulbous base covered with a fibrous coat formed from the bases of previous leaves.  Its several, long, tapering, grasslike leaves rise from near ground level.  Except for a few bracts, the flower stalk, which grows to about three feet tall, is leafless.  The flowers, compactly arranged in branching racemes, are nearly one-half inch across.  Each has a six creamy white to greenish perianth segments bearing a darker yellow spot and one or two basal glands (a feature alluded to by the generic name). The lower flowers of the inflorescence are functionally bisexual and form capsular fruits.  The upper flowers contain either stamens alone or stamens and nonfunctional pistils.  Bog camas inhabits wet, sandy, pine savannas and bogs mostly in the coastal plain of the southeastern United States.  This plant is rare in Louisiana, reported only from St. Tammany Parish.  Zigadenus contains approximately fifteen species that are commonly called camas because of their similarity to another liliaceous genus, Camassia.  The foliage and roots of Zigadenus are reported to be toxins to sheep and other grazing animals, and the nectar of the flowers is said to contain poisonous alkaloids.  There are some reports of humans being poisoned after camas bulbs were mistakenly consumed as onions."--Lowell Urbatsch, in the Flora of Louisiana (Baton Rouge, LSU Press, 1991), p. 140</abstract>
+   <note type="content" displayLabel="Family Name (Latin)">LILIACEAE</note>
+   <note type="content" displayLabel="Family Name (English)">Lily Family</note>
+   <note type="content" displayLabel="Date(s) Collected">May 1, 1981</note>
+   <note type="content">Common name as appears on drawing is Feather Bells.</note>
+   <typeOfResource>still image</typeOfResource>
+   <physicalDescription>
+      <note type="medium">watercolor drawing</note>
+      <internetMediaType>jp2</internetMediaType>
+      <extent>Approx. 57 x 38 cm</extent>
+  </physicalDescription>
+   <language>
+      <languageTerm type="code">en</languageTerm>
+  </language>
+   <note type="ownership" displayLabel="Source">Louisiana State University Libraries, Special Collections ( http://www.lib.lsu.edu/special )</note>
+   <relatedItem type="host">
+      <location>
+         <url displayLabel="Relation">http://lsu.louisianadigitallibrary.org/lsu-msw%3Acollection</url>
+      </location>
+      <titleInfo displayLabel="Digital Collection">
+         <title>Native Flora of Louisiana - Watercolor drawings by Margaret Stones</title>
+      </titleInfo>
+  </relatedItem>
+   <location>
+      <physicalLocation authority="oclcorg" displayLabel="OCLC Member Symbol">LUU</physicalLocation>
+      <physicalLocation displayLabel="Physical Location">Louisiana State University: LSU Libraries</physicalLocation>
+      <url displayLabel="Institution Web Site">http://lib.lsu.edu</url>
+      <holdingSimple>
+         <copyInformation>
+            <subLocation>Hill Memorial Library: Special Collections</subLocation>
+         </copyInformation>
+      </holdingSimple>
+   </location>
+   <accessCondition type="use and reproduction" displayLabel="Contact Information">E-mail lsudiglib@lsu.edu with questions or comments. See instructions for ordering reprints of this item here: http://www.lib.lsu.edu/special/services/duplication.html Mention the "Item number" or "Item URL" in your request. </accessCondition>
+   <accessCondition type="restriction on access" displayLabel="Rights">Image copyright Louisiana State University. 'Description' reprinted by permission of Louisiana State University Press from Flora of Louisiana: Watercolor Drawings by Margaret Stones with Botanical Descriptions by Lowell Urbatsch. Copyright 1991 by Louisiana State University Press.</accessCondition>
+   <note type="preferred citation" displayLabel="Cite As">Native Flora of Louisiana: Watercolor Drawings by Margaret Stones, Louisiana Digital Library, Baton Rouge, La.</note>
+   <identifier type="local" displayLabel="Object File Name">ms000222</identifier>
+   <identifier displayLabel="Migrated From" invalid="yes" type="uri">http://cdm16313.contentdm.oclc.org/cdm/singleitem/collection/MSW/id/234</identifier>
+   <recordInfo>
+      <recordOrigin>Transformed into MODS from extended Dublin Core by the LDL Development Team at Louisiana State University.</recordOrigin>
+      <recordCreationDate>2006-10-28</recordCreationDate>
+      <recordChangeDate>2017-02-02</recordChangeDate>
+  </recordInfo>
+   <extension>
+      <fileSize>19.5 MB</fileSize>
+      <digitizedBy>KAS</digitizedBy>
+      <imageManipulation>Contrast and brightness adjusted to match original.</imageManipulation>
+      <colorMode>Color RGB</colorMode>
+      <cataloger>kas</cataloger>
+      <hardwareSoftware>: Imagery digitally captured with Sinar 4 in. by 5 in. Large Format Camera with a PhaseOne 4 in. by 5 in.  Digital Studio Camera System Back. Software used includes PhaseOne capturing software and Adobe Photoshop.</hardwareSoftware>
+      <CONTENTdmData>
+         <alias>MSW</alias>
+         <pointer>234</pointer>
+         <dmGetItemInfo mimetype="application/json"
+                        source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/MSW/234/json"
+                        timestamp="2017-02-02 15:27:17">{"title":"Bog Camas","scient":"Zigadenus leimanthoides Gray","family":"Lily Family","famila":"LILIACEAE","habita":{},"relate":{},"creato":"Stones, Margaret","date":"May 1, 1981","coverb":"1976-1989","publis":"Louisiana State University (Baton Rouge, La.). Libraries","covera":"St. Tammany Parish","contri":"Givens, Florence M.; Lemke, David","descri":"\"Bog camas has a bulbous base covered with a fibrous coat formed from the bases of previous leaves.  Its several, long, tapering, grasslike leaves rise from near ground level.  Except for a few bracts, the flower stalk, which grows to about three feet tall, is leafless.  The flowers, compactly arranged in branching racemes, are nearly one-half inch across.  Each has a six creamy white to greenish perianth segments bearing a darker yellow spot and one or two basal glands (a feature alluded to by the generic name). The lower flowers of the inflorescence are functionally bisexual and form capsular fruits.  The upper flowers contain either stamens alone or stamens and nonfunctional pistils.  Bog camas inhabits wet, sandy, pine savannas and bogs mostly in the coastal plain of the southeastern United States.  This plant is rare in Louisiana, reported only from St. Tammany Parish.  Zigadenus contains approximately fifteen species that are commonly called camas because of their similarity to another liliaceous genus, Camassia.  The foliage and roots of Zigadenus are reported to be toxins to sheep and other grazing animals, and the nectar of the flowers is said to contain poisonous alkaloids.  There are some reports of humans being poisoned after camas bulbs were mistakenly consumed as onions.\"--Lowell Urbatsch, in the Flora of Louisiana (Baton Rouge, LSU Press, 1991), p. 140","notes":"Common name as appears on drawing is Feather Bells.","langua":"en","drawin":"watercolor drawing","physic":"Approx. 57 x 38 cm","format":"JPEG2000","source":"Louisiana State University Libraries, Special Collections ( http:\/\/www.lib.lsu.edu\/special )","catlog":"kas","rights":"Image copyright Louisiana State University. 'Description' reprinted by permission of Louisiana State University Press from Flora of Louisiana: Watercolor Drawings by Margaret Stones with Botanical Descriptions by Lowell Urbatsch. Copyright 1991 by Louisiana State University Press.","cite":"Native Flora of Louisiana: Watercolor Drawings by Margaret Stones, LOUISiana Digital Library, Baton Rouge, La.","catalo":"2006-10-28","image":"600 dpi","imaga":"8-bit","color":"Color RGB","extent":{},"imagb":"Contrast and brightness adjusted to match original.","file":"19.5 MB","hardwa":": Imagery digitally captured with Sinar 4 in. by 5 in. Large Format Camera with a PhaseOne 4 in. by 5 in.  Digital Studio Camera System Back. Software used includes PhaseOne capturing software and Adobe Photoshop.","digiti":"KAS","digita":"2006-10-07","to":"E-mail lsudiglib@lsu.edu with questions or comments. See instructions for ordering reprints of this item here: http:\/\/www.lib.lsu.edu\/special\/services\/duplication.html Mention the \"Item number\" or \"Item URL\" in your request. ","identi":"See 'reference url' on the navigational bars.","object":"ms000222","collec":"http:\/\/louisdl.louislibraries.org\/cdm4\/index_MSW.php?CISOROOT=\/MSW","type":"Image","fullrs":{},"find":"234.jp2","dmaccess":{},"dmimage":{},"dmcreated":"2006-10-28","dmmodified":"2006-10-28","dmoclcno":{},"dmrecord":"234","restrictionCode":"1","cdmfilesize":"2069341","cdmfilesizeformatted":"1.97 MB","cdmprintpdf":"0","cdmhasocr":"0","cdmisnewspaper":"0"}</dmGetItemInfo>
+      </CONTENTdmData>
+      <imageBitDepth>8-bit</imageBitDepth>
+      <imageResolution>600 dpi</imageResolution>
+  </extension>
+</mods>
