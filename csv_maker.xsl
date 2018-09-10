@@ -7,10 +7,15 @@
     <xsl:output method="text"/>
     
     <xsl:param name="headerFile">
-        <xsl:text>sample_data/sample_fields.xml</xsl:text>
+        <!--<xsl:text>sample_data/sample_fields.xml</xsl:text>-->
+        <xsl:text>lsu-sc-msw_fields.xml</xsl:text>
     </xsl:param>
     <xsl:variable name="fieldList" select="document($headerFile)"/>
-        
+    
+    <!-- Sets the field separator with a variable; 
+        if necessary, it can be reset throughout -->
+    <xsl:variable name="separator" select="'&#9;'"/>
+
     <xsl:template match="/">
         <xsl:call-template name="headerRow"/>
         <xsl:apply-templates select="modsCollection/mods"/>
@@ -30,7 +35,7 @@
             <!-- Inserts a comma after each header until the last, then inserts a new line -->
             <xsl:choose>
                 <xsl:when test="position()!=last()">
-                    <xsl:text>,</xsl:text>
+                    <xsl:value-of select="$separator"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:text>&#xa;</xsl:text>
@@ -102,18 +107,11 @@
                 </xsl:choose>
             </xsl:variable>
 
-            <xsl:choose>
-                <xsl:when test="contains($value, ',')">
-                    <xsl:value-of select="concat('&quot;', $value, '&quot;')"/>
-                </xsl:when>
-                <xsl:otherwise>
-                    <xsl:value-of select="$value"/>
-                </xsl:otherwise>
-            </xsl:choose>
+            <xsl:value-of select="normalize-space($value)"/>
 
             <xsl:choose>
                 <xsl:when test="position() != last()">
-                    <xsl:text>,</xsl:text>
+                    <xsl:value-of select="$separator"/>
                 </xsl:when>
                 <xsl:otherwise>
                     <xsl:text>&#xa;</xsl:text>
