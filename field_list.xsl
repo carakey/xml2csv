@@ -36,9 +36,9 @@
                     <fieldName>
                         <xsl:call-template name="fieldName"/>
                     </fieldName>
-                    <mapping>
+                    <!--<mapping>
                         <xsl:call-template name="mapping"/>
-                    </mapping>
+                    </mapping>-->
                 </field>
             </xsl:for-each>
         </fieldList>
