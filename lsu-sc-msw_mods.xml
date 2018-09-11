@@ -23048,30 +23048,5 @@ Scientific name as appears on drawing is Sagittaria falcata.</note>
          <imageResolution>600 dpi</imageResolution>
       </extension>
    </mods>
-   <mods>
-      <identifier type="local" displayLabel="PID">lsu-sc-msw:collection</identifier>
-      <titleInfo>
-         <title>Native Flora of Louisiana - Watercolor drawings by Margaret Stones</title>
-      </titleInfo>
-      <name type="corporate" displayLabel="Owning Institution">
-         <namePart>Louisiana State University Libraries, Special Collections ( http://www.lib.lsu.edu/special )</namePart>
-         <role>
-            <roleTerm authority="marcrelator" type="text">Repository</roleTerm>
-            <roleTerm authority="marcrelator" type="code">rps</roleTerm>
-         </role>
-      </name>
-      <typeOfResource collection="yes">mixed material</typeOfResource>
-      <language>
-         <languageTerm authority="iso639-2b" type="code">eng</languageTerm>
-      </language>
-      <note type="content" displayLabel="Collection Description">&lt;p&gt;The Native Flora of Louisiana Collection contains watercolor drawings by world-renowned botanical artist Margaret Stones. The collection began in 1976, when Louisiana State University commissioned six watercolor drawings to celebrate the American bicentennial and the 50th anniversary of LSU's Baton Rouge campus (Stones xv; Zdanowicz 15). University officials hoped these drawings would combine art and science to create a "record of Louisiana's lush, varied, and beautiful flora" (Stones xv).&lt;/p&gt;&#xD;
-&#xD;
-&lt;p&gt;Based on the popularity of the original six drawings, LSU decided to expand the Native Flora of Louisiana project to include 200 more drawings. Stones completed these drawings in 1987, and she continued to produce drawings on a yearly contract basis until 1989. The Native Flora of Louisiana project currently numbers 224 drawings, all of which are housed in LSU Libraries Special Collections Hill Memorial Library along with other published works by Stones (Stones ix-xv). &lt;a href="http://www.lib.lsu.edu/sites/all/files/sc/exhibits/e-exhibits/stones/resources.htm" target="_blank"&gt;References&lt;/a&gt;.&lt;/p&gt;&#xD;
-&#xD;
-&lt;p&gt;For more information about this collection visit the &lt;a href="http://www.lib.lsu.edu/sites/all/files/sc/exhibits/e-exhibits/stones/index.html" target="_blank"&gt;Native Flora of Louisiana website&lt;/a&gt;.&lt;/p&gt;</note>
-      <abstract displayLabel="Collection Summary">&lt;p&gt;Watercolor drawings of Louisiana's native plants by botanical artist Margaret Stones from the E.A. McIlhenny Collection at Louisiana State University Libraries Special Collections.&lt;/p&gt;</abstract>
-      <identifier type="local" displayLabel="Collection ID">lsu-sc-msw</identifier>
-      <identifier type="local" displayLabel="Migrated From (Search)">http://louisianadigitallibrary.org/cdm/search/collection/MSW</identifier>
-      <identifier type="local" displayLabel="Migrated From (Landing Page)">http://louisianadigitallibrary.org/cdm/landingpage/collection/MSW</identifier>
-   </mods>
+   
 </modsCollection>
