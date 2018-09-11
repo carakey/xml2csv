@@ -95,12 +95,12 @@
                         <xsl:variable name="attValue"
                             select="substring-before(substring-after(substring-after($header, $attName), '=&quot;'), '&quot;')"/>
                         <xsl:for-each
-                            select="$record//*[name() = $elementName][@*[name() = $attName] = $attValue]">
+                            select="$record//*[name() = $elementName][@*[name() = $attName] = $attValue][not(@displayLabel)]">
                             <xsl:call-template name="cell"/>
                         </xsl:for-each>
                     </xsl:when>
                     <xsl:otherwise>
-                        <xsl:for-each select="$record//*[name() = $header]">
+                        <xsl:for-each select="$record//*[name() = $header][not(@displayLabel)]">
                             <xsl:call-template name="cell"/>
                         </xsl:for-each>
                     </xsl:otherwise>

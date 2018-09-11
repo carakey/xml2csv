@@ -95,7 +95,9 @@ The resulting CSV file can be opened and edited with a regular spreadsheet-viewi
 * Get the distinct values at the XPath List step rather than the Field List step.
 * Handling of MODS subject/* elements in CSV: ideal would be to have all subelements within a single <subject> wrapper to appear as a single string with double-dash delimiter, with separate <subject> strings having a semicolon delimiter.
 * (LDL specific issue) Currently the process omits the JSON-encoded CONTENTdm migration data that was brought in as an extension field with MIK.
-* Mapping back from CSV to MODS with MIK is completely untested; the double quotes in attribute values need to be replaced with apostrophes.
+* RoleTerms are being omitted from the field list because they are disassociated from their names. Current logic does not connect the roleTerm to the namePart except where the roleTerm also shows up in the displayLabel. I intend to customize the name/namePart field to be labeled by and match to sibling roleTerms instead of displayLabels.
+* The "elementMatch" function in csv_maker.xsl excludes elements with a displayLabel attribute at the terminal element (to avoid duplicating those elements that do have a displayLabel on other instances; this shows up in the LDL with `<note @type='content'>` for example); however, it does not prevent duplication if the label occurs on a container element.
+* Mapping back from CSV to MODS with MIK ~is completely untested~ has been commented out; known issue is that the double quotes in attribute values need to be replaced with apostrophes.
 
 ## Notes on Processing with Saxon
 
