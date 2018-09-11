@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <fieldList>
-   <fieldCount>61</fieldCount>
+   <fieldCount>50</fieldCount>
    <field>
       <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
       <fieldName>PID</fieldName>
@@ -14,28 +14,12 @@
       <fieldName>Scientific Name (Species) :: subTitle</fieldName>
    </field>
    <field>
-      <xpath>/modsCollection/mods/name[@displayLabel="Collector"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
-      <fieldName>Collector :: role :: roleTerm @type="text" @authority="marcrelator"</fieldName>
-   </field>
-   <field>
-      <xpath>/modsCollection/mods/name[@displayLabel="Collector"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
-      <fieldName>Collector :: role :: roleTerm @type="code" @authority="marcrelator"</fieldName>
-   </field>
-   <field>
       <xpath>/modsCollection/mods/name[@displayLabel="Collector"]/namePart</xpath>
       <fieldName>Collector :: namePart</fieldName>
    </field>
    <field>
       <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/namePart</xpath>
       <fieldName>Artist :: namePart</fieldName>
-   </field>
-   <field>
-      <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="code"][@authority="marcrelator"]</xpath>
-      <fieldName>Artist :: role :: roleTerm @type="code" @authority="marcrelator"</fieldName>
-   </field>
-   <field>
-      <xpath>/modsCollection/mods/name[@displayLabel="Artist"]/role/roleTerm[@type="text"][@authority="marcrelator"]</xpath>
-      <fieldName>Artist :: role :: roleTerm @type="text" @authority="marcrelator"</fieldName>
    </field>
    <field>
       <xpath>/modsCollection/mods/originInfo/dateCreated[@keyDate="yes"][@point="start"]</xpath>
@@ -200,49 +184,5 @@
    <field>
       <xpath>/modsCollection/mods/note[@type="content"]</xpath>
       <fieldName>note @type="content"</fieldName>
-   </field>
-   <field>
-      <xpath>/modsCollection/mods/titleInfo/title</xpath>
-      <fieldName>title</fieldName>
-   </field>
-   <field>
-      <xpath>/modsCollection/mods/name[@type="corporate"][@displayLabel="Owning Institution"]/namePart</xpath>
-      <fieldName>Owning Institution :: namePart</fieldName>
-   </field>
-   <field>
-      <xpath>/modsCollection/mods/name[@type="corporate"][@displayLabel="Owning Institution"]/role/roleTerm[@authority="marcrelator"][@type="text"]</xpath>
-      <fieldName>Owning Institution :: role :: roleTerm @authority="marcrelator" @type="text"</fieldName>
-   </field>
-   <field>
-      <xpath>/modsCollection/mods/name[@type="corporate"][@displayLabel="Owning Institution"]/role/roleTerm[@authority="marcrelator"][@type="code"]</xpath>
-      <fieldName>Owning Institution :: role :: roleTerm @authority="marcrelator" @type="code"</fieldName>
-   </field>
-   <field>
-      <xpath>/modsCollection/mods/typeOfResource[@collection="yes"]</xpath>
-      <fieldName>typeOfResource @collection="yes"</fieldName>
-   </field>
-   <field>
-      <xpath>/modsCollection/mods/language/languageTerm[@authority="iso639-2b"][@type="code"]</xpath>
-      <fieldName>languageTerm @authority="iso639-2b" @type="code"</fieldName>
-   </field>
-   <field>
-      <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Collection Description"]</xpath>
-      <fieldName>Collection Description</fieldName>
-   </field>
-   <field>
-      <xpath>/modsCollection/mods/abstract[@displayLabel="Collection Summary"]</xpath>
-      <fieldName>Collection Summary</fieldName>
-   </field>
-   <field>
-      <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Collection ID"]</xpath>
-      <fieldName>Collection ID</fieldName>
-   </field>
-   <field>
-      <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Migrated From (Search)"]</xpath>
-      <fieldName>Migrated From (Search)</fieldName>
-   </field>
-   <field>
-      <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Migrated From (Landing Page)"]</xpath>
-      <fieldName>Migrated From (Landing Page)</fieldName>
    </field>
 </fieldList>

@@ -12193,16 +12193,4 @@
    <xpath>/modsCollection/mods/extension/CONTENTdmData/dmGetItemInfo[@mimetype="application/json"][@source="https://server16313.contentdm.oclc.org/dmwebservices/index.php?q=dmGetItemInfo/MSW/26/json"][@timestamp="2017-02-02 15:27:18"]</xpath>
    <xpath>/modsCollection/mods/extension/imageBitDepth</xpath>
    <xpath>/modsCollection/mods/extension/imageResolution</xpath>
-   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="PID"]</xpath>
-   <xpath>/modsCollection/mods/titleInfo/title</xpath>
-   <xpath>/modsCollection/mods/name[@type="corporate"][@displayLabel="Owning Institution"]/namePart</xpath>
-   <xpath>/modsCollection/mods/name[@type="corporate"][@displayLabel="Owning Institution"]/role/roleTerm[@authority="marcrelator"][@type="text"]</xpath>
-   <xpath>/modsCollection/mods/name[@type="corporate"][@displayLabel="Owning Institution"]/role/roleTerm[@authority="marcrelator"][@type="code"]</xpath>
-   <xpath>/modsCollection/mods/typeOfResource[@collection="yes"]</xpath>
-   <xpath>/modsCollection/mods/language/languageTerm[@authority="iso639-2b"][@type="code"]</xpath>
-   <xpath>/modsCollection/mods/note[@type="content"][@displayLabel="Collection Description"]</xpath>
-   <xpath>/modsCollection/mods/abstract[@displayLabel="Collection Summary"]</xpath>
-   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Collection ID"]</xpath>
-   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Migrated From (Search)"]</xpath>
-   <xpath>/modsCollection/mods/identifier[@type="local"][@displayLabel="Migrated From (Landing Page)"]</xpath>
 </xpathList>

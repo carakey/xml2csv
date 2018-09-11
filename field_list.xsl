@@ -29,17 +29,22 @@
             
             <!-- For each unique XPath, copies the XPath adds a fieldName element and a mapping element -->
             <xsl:for-each select="$uniquePaths">
-                <field>
-                    <xpath>
-                        <xsl:value-of select="."/>
-                    </xpath>
-                    <fieldName>
-                        <xsl:call-template name="fieldName"/>
-                    </fieldName>
-                    <!--<mapping>
+                <xsl:choose>
+                    <xsl:when test="contains(., 'roleTerm')"/>
+                    <xsl:otherwise>
+                        <field>
+                            <xpath>
+                                <xsl:value-of select="."/>
+                            </xpath>
+                            <fieldName>
+                                <xsl:call-template name="fieldName"/>
+                            </fieldName>
+                            <!--<mapping>
                         <xsl:call-template name="mapping"/>
                     </mapping>-->
-                </field>
+                        </field>
+                    </xsl:otherwise>
+                </xsl:choose>
             </xsl:for-each>
         </fieldList>
     </xsl:template>
@@ -47,15 +52,13 @@
     <xsl:template name="fieldName">
         <xsl:variable name="terminus" select="replace(., '^.*/', '')"/>
         <xsl:choose>
-            <!--            <xsl:when test="contains(., 'roleTerm')">
-                <xsl:value-of select="'roleTerm'"/>
-            </xsl:when>-->
             <xsl:when test="contains(., 'displayLabel')">
                 <xsl:variable name="labelValue"
                     select="substring-before(substring-after(., 'displayLabel=&quot;'), '&quot;]')"/>
                 <xsl:value-of select="$labelValue"/>
                 <xsl:if test="contains(substring-after(., $labelValue), '/')">
-                    <xsl:for-each select="tokenize(substring-after(substring-after(., $labelValue), '/'[1]), '/')">
+                    <xsl:for-each
+                        select="tokenize(substring-after(substring-after(., $labelValue), '/'[1]), '/')">
                         <xsl:text> :: </xsl:text>
                         <xsl:value-of select="replace(replace(., '\[', ' '), '\]', '')"/>
                     </xsl:for-each>
